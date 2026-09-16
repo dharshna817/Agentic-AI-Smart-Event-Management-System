@@ -1,0 +1,1425 @@
+[
+  {
+    "id": 1,
+    "taskId": "TASK-001",
+    "workflowId": "WF-2026-001",
+    "agentId": "speaker-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-001",
+      "eventId": 1,
+      "speakerId": 1,
+      "sessionId": 1
+    },
+    "output": {
+      "eventType": "speaker.cancelled",
+      "speakerId": 1,
+      "speakerName": "Dr. Sarah Chen",
+      "sessionId": 1,
+      "sessionName": "Opening Keynote",
+      "eventId": 1,
+      "eventName": "AI Tech Summit",
+      "cancellationTimestamp": "2026-09-04T16:18:34.369Z",
+      "expectedAttendance": 320,
+      "reason": "Speaker emergency cancellation received."
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.95,
+    "startedAt": "2026-09-04T16:18:34.272Z",
+    "completedAt": "2026-09-04T16:18:34.378Z",
+    "error": null,
+    "createdAt": "2026-09-04T16:18:34.139Z",
+    "updatedAt": "2026-09-04T16:18:34.378Z"
+  },
+  {
+    "id": 2,
+    "taskId": "TASK-002",
+    "workflowId": "WF-2026-001",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "speaker-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-001",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "speaker.cancelled"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 320,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 90.8,
+      "projectedHealthScore": 76.8,
+      "healthStatus": "HEALTHY",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 320 registered attendees.",
+        "Event health projected to drop from 90.8 to 76.8.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-04T16:18:34.453Z",
+    "completedAt": "2026-09-04T16:18:34.616Z",
+    "error": null,
+    "createdAt": "2026-09-04T16:18:34.156Z",
+    "updatedAt": "2026-09-04T16:18:34.616Z"
+  },
+  {
+    "id": 3,
+    "taskId": "TASK-003",
+    "workflowId": "WF-2026-001",
+    "agentId": "venue-agent",
+    "sequenceOrder": 3,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-001",
+      "eventId": 1,
+      "sessionId": 1,
+      "impact": null,
+      "requiredCapacity": 180
+    },
+    "output": {
+      "recommendedVenueId": 1,
+      "recommendedVenueName": "Grand Auditorium",
+      "location": "North Campus",
+      "availableTime": "14:00 - 15:30",
+      "capacity": 500,
+      "requiredCapacity": 320,
+      "utilizationRate": 64,
+      "conflicts": [],
+      "alternateOptions": [
+        {
+          "venueId": 2,
+          "name": "Innovation Hall",
+          "location": "Research Wing",
+          "capacity": 220,
+          "status": "available",
+          "venueType": "Conference Hall"
+        },
+        {
+          "venueId": 3,
+          "name": "Summit Lab",
+          "location": "Innovation Center",
+          "capacity": 120,
+          "status": "available",
+          "venueType": "Workshop Room"
+        }
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.91,
+    "startedAt": "2026-09-04T16:18:35.032Z",
+    "completedAt": "2026-09-04T16:18:40.151Z",
+    "error": null,
+    "createdAt": "2026-09-04T16:18:34.172Z",
+    "updatedAt": "2026-09-04T16:18:40.151Z"
+  },
+  {
+    "id": 4,
+    "taskId": "TASK-004",
+    "workflowId": "WF-2026-001",
+    "agentId": "registration-agent",
+    "sequenceOrder": 3,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-001",
+      "eventId": 1,
+      "sessionId": 1,
+      "impact": null
+    },
+    "output": {
+      "sessionId": 1,
+      "affectedAttendeesCount": 320,
+      "registeredAttendeesFound": 320,
+      "notificationRequired": true,
+      "checkInImpact": "MODERATE",
+      "sampleAffectedAttendees": [
+        {
+          "registrationId": "REG-MSA55R41",
+          "fullName": "DHARSHNA S",
+          "email": "dharshnasubramani@gmail.com"
+        }
+      ],
+      "recommendedChannel": "EMAIL_AND_PUSH"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.94,
+    "startedAt": "2026-09-04T16:18:40.255Z",
+    "completedAt": "2026-09-04T16:18:40.337Z",
+    "error": null,
+    "createdAt": "2026-09-04T16:18:34.189Z",
+    "updatedAt": "2026-09-04T16:18:40.337Z"
+  },
+  {
+    "id": 5,
+    "taskId": "TASK-005",
+    "workflowId": "WF-2026-001",
+    "agentId": "incident-agent",
+    "sequenceOrder": 4,
+    "dependencies": [
+      "intelligence-agent",
+      "venue-agent",
+      "registration-agent"
+    ],
+    "status": "FAILED",
+    "input": {
+      "workflowId": "WF-2026-001",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 2,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": "2026-09-04T16:18:40.403Z",
+    "completedAt": "2026-09-04T16:18:43.017Z",
+    "error": "buildIncidentAnalysis is not a function",
+    "createdAt": "2026-09-04T16:18:34.210Z",
+    "updatedAt": "2026-09-04T16:18:43.017Z"
+  },
+  {
+    "id": 6,
+    "taskId": "TASK-006",
+    "workflowId": "WF-2026-001",
+    "agentId": "notification-agent",
+    "sequenceOrder": 5,
+    "dependencies": [
+      "incident-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-001",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:18:34.224Z",
+    "updatedAt": "2026-09-04T16:18:34.224Z"
+  },
+  {
+    "id": 7,
+    "taskId": "TASK-007",
+    "workflowId": "WF-2026-002",
+    "agentId": "incident-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "FAILED",
+    "input": {
+      "workflowId": "WF-2026-002",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 2,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": "2026-09-04T16:20:37.544Z",
+    "completedAt": "2026-09-04T16:20:40.184Z",
+    "error": "buildIncidentAnalysis is not a function",
+    "createdAt": "2026-09-04T16:20:37.469Z",
+    "updatedAt": "2026-09-04T16:20:40.184Z"
+  },
+  {
+    "id": 8,
+    "taskId": "TASK-008",
+    "workflowId": "WF-2026-002",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "incident-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-002",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "incident.created"
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:20:37.491Z",
+    "updatedAt": "2026-09-04T16:20:37.491Z"
+  },
+  {
+    "id": 9,
+    "taskId": "TASK-009",
+    "workflowId": "WF-2026-002",
+    "agentId": "notification-agent",
+    "sequenceOrder": 3,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-002",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:20:37.506Z",
+    "updatedAt": "2026-09-04T16:20:37.506Z"
+  },
+  {
+    "id": 10,
+    "taskId": "TASK-010",
+    "workflowId": "WF-2026-003",
+    "agentId": "venue-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "FAILED",
+    "input": {
+      "workflowId": "WF-2026-003",
+      "eventId": 1,
+      "sessionId": 1,
+      "impact": null,
+      "requiredCapacity": 180
+    },
+    "output": {
+      "recommendedVenueId": 1,
+      "recommendedVenueName": "Grand Auditorium",
+      "location": "North Campus",
+      "availableTime": "14:00 - 15:30",
+      "capacity": 500,
+      "requiredCapacity": 180,
+      "utilizationRate": 36,
+      "conflicts": [],
+      "alternateOptions": [
+        {
+          "venueId": 2,
+          "name": "Innovation Hall",
+          "location": "Research Wing",
+          "capacity": 220,
+          "status": "available",
+          "venueType": "Conference Hall"
+        },
+        {
+          "venueId": 3,
+          "name": "Summit Lab",
+          "location": "Innovation Center",
+          "capacity": 120,
+          "status": "available",
+          "venueType": "Workshop Room"
+        }
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.91,
+    "startedAt": "2026-09-04T16:23:16.212Z",
+    "completedAt": "2026-09-04T16:23:24.063Z",
+    "error": "Rejected by Admin (Event Manager): Schedule conflict with parallel session",
+    "createdAt": "2026-09-04T16:23:16.109Z",
+    "updatedAt": "2026-09-04T16:23:24.063Z"
+  },
+  {
+    "id": 11,
+    "taskId": "TASK-011",
+    "workflowId": "WF-2026-003",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "venue-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-003",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "venue.unavailable"
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:23:16.124Z",
+    "updatedAt": "2026-09-04T16:23:16.124Z"
+  },
+  {
+    "id": 12,
+    "taskId": "TASK-012",
+    "workflowId": "WF-2026-003",
+    "agentId": "registration-agent",
+    "sequenceOrder": 3,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-003",
+      "eventId": 1,
+      "sessionId": 1,
+      "impact": null
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:23:16.136Z",
+    "updatedAt": "2026-09-04T16:23:16.136Z"
+  },
+  {
+    "id": 13,
+    "taskId": "TASK-013",
+    "workflowId": "WF-2026-003",
+    "agentId": "incident-agent",
+    "sequenceOrder": 4,
+    "dependencies": [
+      "intelligence-agent",
+      "venue-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-003",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:23:16.147Z",
+    "updatedAt": "2026-09-04T16:23:16.147Z"
+  },
+  {
+    "id": 14,
+    "taskId": "TASK-014",
+    "workflowId": "WF-2026-003",
+    "agentId": "notification-agent",
+    "sequenceOrder": 5,
+    "dependencies": [
+      "incident-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-003",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:23:16.163Z",
+    "updatedAt": "2026-09-04T16:23:16.163Z"
+  },
+  {
+    "id": 15,
+    "taskId": "TASK-015",
+    "workflowId": "WF-2026-004",
+    "agentId": "registration-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-004",
+      "eventId": 1,
+      "sessionId": 1,
+      "impact": null
+    },
+    "output": {
+      "sessionId": 1,
+      "affectedAttendeesCount": 180,
+      "registeredAttendeesFound": 180,
+      "notificationRequired": true,
+      "checkInImpact": "MODERATE",
+      "sampleAffectedAttendees": [
+        {
+          "registrationId": "REG-MSA55R41",
+          "fullName": "DHARSHNA S",
+          "email": "dharshnasubramani@gmail.com"
+        }
+      ],
+      "recommendedChannel": "EMAIL_AND_PUSH"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.94,
+    "startedAt": "2026-09-04T16:23:37.527Z",
+    "completedAt": "2026-09-04T16:23:37.621Z",
+    "error": null,
+    "createdAt": "2026-09-04T16:23:37.440Z",
+    "updatedAt": "2026-09-04T16:23:37.621Z"
+  },
+  {
+    "id": 16,
+    "taskId": "TASK-016",
+    "workflowId": "WF-2026-004",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "registration-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-004",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "registration.spike"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 90.8,
+      "projectedHealthScore": 76.8,
+      "healthStatus": "HEALTHY",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 90.8 to 76.8.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-04T16:23:37.686Z",
+    "completedAt": "2026-09-04T16:23:37.829Z",
+    "error": null,
+    "createdAt": "2026-09-04T16:23:37.455Z",
+    "updatedAt": "2026-09-04T16:23:37.829Z"
+  },
+  {
+    "id": 17,
+    "taskId": "TASK-017",
+    "workflowId": "WF-2026-004",
+    "agentId": "incident-agent",
+    "sequenceOrder": 3,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "FAILED",
+    "input": {
+      "workflowId": "WF-2026-004",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 2,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": "2026-09-04T16:23:37.895Z",
+    "completedAt": "2026-09-04T16:23:40.514Z",
+    "error": "buildIncidentAnalysis is not a function",
+    "createdAt": "2026-09-04T16:23:37.472Z",
+    "updatedAt": "2026-09-04T16:23:40.514Z"
+  },
+  {
+    "id": 18,
+    "taskId": "TASK-018",
+    "workflowId": "WF-2026-004",
+    "agentId": "notification-agent",
+    "sequenceOrder": 4,
+    "dependencies": [
+      "incident-agent"
+    ],
+    "status": "PENDING",
+    "input": {
+      "workflowId": "WF-2026-004",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": null,
+    "completedAt": null,
+    "error": null,
+    "createdAt": "2026-09-04T16:23:37.487Z",
+    "updatedAt": "2026-09-04T16:23:37.488Z"
+  },
+  {
+    "id": 19,
+    "taskId": "TASK-019",
+    "workflowId": "WF-2026-005",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-005",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "SPEAKER_CANCELLATION"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 72.5,
+      "projectedHealthScore": 58.5,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 72.5 to 58.5.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T09:27:20.479Z",
+    "completedAt": "2026-09-05T09:27:20.544Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:27:20.452Z",
+    "updatedAt": "2026-09-05T09:27:20.544Z"
+  },
+  {
+    "id": 20,
+    "taskId": "TASK-020",
+    "workflowId": "WF-2026-005",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "FAILED",
+    "input": {
+      "workflowId": "WF-2026-005",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": null,
+    "retryCount": 2,
+    "maxRetries": 3,
+    "confidence": null,
+    "startedAt": "2026-09-05T09:27:20.578Z",
+    "completedAt": "2026-09-05T09:27:23.164Z",
+    "error": "buildOperationalAlert is not a function",
+    "createdAt": "2026-09-05T09:27:20.459Z",
+    "updatedAt": "2026-09-05T09:27:23.164Z"
+  },
+  {
+    "id": 21,
+    "taskId": "TASK-021",
+    "workflowId": "WF-2026-006",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-006",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "SPEAKER_CANCELLATION"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 72.5,
+      "projectedHealthScore": 58.5,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 72.5 to 58.5.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T09:28:21.312Z",
+    "completedAt": "2026-09-05T09:28:21.363Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:28:21.290Z",
+    "updatedAt": "2026-09-05T09:28:21.363Z"
+  },
+  {
+    "id": 22,
+    "taskId": "TASK-022",
+    "workflowId": "WF-2026-006",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-006",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 2,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T09:28:21.392Z",
+    "completedAt": "2026-09-05T09:28:21.429Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:28:21.296Z",
+    "updatedAt": "2026-09-05T09:28:21.429Z"
+  },
+  {
+    "id": 23,
+    "taskId": "TASK-023",
+    "workflowId": "WF-2026-007",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-007",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "SPEAKER_CANCELLATION"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 72.5,
+      "projectedHealthScore": 58.5,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 72.5 to 58.5.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T09:28:38.282Z",
+    "completedAt": "2026-09-05T09:28:38.351Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:28:38.261Z",
+    "updatedAt": "2026-09-05T09:28:38.351Z"
+  },
+  {
+    "id": 24,
+    "taskId": "TASK-024",
+    "workflowId": "WF-2026-007",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-007",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 2,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T09:28:38.380Z",
+    "completedAt": "2026-09-05T09:28:38.418Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:28:38.266Z",
+    "updatedAt": "2026-09-05T09:28:38.418Z"
+  },
+  {
+    "id": 25,
+    "taskId": "TASK-025",
+    "workflowId": "WF-2026-008",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-008",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "SPEAKER_CANCELLATION"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 72.5,
+      "projectedHealthScore": 58.5,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 72.5 to 58.5.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T09:29:11.579Z",
+    "completedAt": "2026-09-05T09:29:11.651Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:29:11.546Z",
+    "updatedAt": "2026-09-05T09:29:11.651Z"
+  },
+  {
+    "id": 26,
+    "taskId": "TASK-026",
+    "workflowId": "WF-2026-008",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-008",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 2,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T09:29:11.684Z",
+    "completedAt": "2026-09-05T09:29:11.741Z",
+    "error": null,
+    "createdAt": "2026-09-05T09:29:11.554Z",
+    "updatedAt": "2026-09-05T09:29:11.741Z"
+  },
+  {
+    "id": 27,
+    "taskId": "TASK-027",
+    "workflowId": "WF-2026-009",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-009",
+      "eventId": 1,
+      "speaker": null,
+      "triggerType": "SPEAKER_CANCELLATION"
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 72.5,
+      "projectedHealthScore": 58.5,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 72.5 to 58.5.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:06:33.859Z",
+    "completedAt": "2026-09-05T10:06:33.930Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:06:33.828Z",
+    "updatedAt": "2026-09-05T10:06:33.930Z"
+  },
+  {
+    "id": 28,
+    "taskId": "TASK-028",
+    "workflowId": "WF-2026-009",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-009",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 2,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:06:33.961Z",
+    "completedAt": "2026-09-05T10:06:34.002Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:06:33.837Z",
+    "updatedAt": "2026-09-05T10:06:34.002Z"
+  },
+  {
+    "id": 29,
+    "taskId": "TASK-029",
+    "workflowId": "WF-2026-010",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-010",
+      "eventId": 1,
+      "speaker": null
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 61.7,
+      "projectedHealthScore": 47.7,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 61.7 to 47.7.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:15:02.676Z",
+    "completedAt": "2026-09-05T10:15:02.731Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:15:02.644Z",
+    "updatedAt": "2026-09-05T10:15:02.731Z"
+  },
+  {
+    "id": 30,
+    "taskId": "TASK-030",
+    "workflowId": "WF-2026-010",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-010",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 3,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:15:02.756Z",
+    "completedAt": "2026-09-05T10:15:02.797Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:15:02.651Z",
+    "updatedAt": "2026-09-05T10:15:02.797Z"
+  },
+  {
+    "id": 31,
+    "taskId": "TASK-031",
+    "workflowId": "WF-2026-011",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-011",
+      "eventId": 1,
+      "speaker": null
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 59.3,
+      "projectedHealthScore": 45.3,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 59.3 to 45.3.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:15:16.352Z",
+    "completedAt": "2026-09-05T10:15:16.405Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:15:16.328Z",
+    "updatedAt": "2026-09-05T10:15:16.405Z"
+  },
+  {
+    "id": 32,
+    "taskId": "TASK-032",
+    "workflowId": "WF-2026-011",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-011",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 4,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:15:16.429Z",
+    "completedAt": "2026-09-05T10:15:16.465Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:15:16.335Z",
+    "updatedAt": "2026-09-05T10:15:16.465Z"
+  },
+  {
+    "id": 33,
+    "taskId": "TASK-033",
+    "workflowId": "WF-2026-012",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-012",
+      "eventId": 1,
+      "speaker": null
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 56.9,
+      "projectedHealthScore": 42.9,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 56.9 to 42.9.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:15:57.771Z",
+    "completedAt": "2026-09-05T10:15:57.833Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:15:57.744Z",
+    "updatedAt": "2026-09-05T10:15:57.833Z"
+  },
+  {
+    "id": 34,
+    "taskId": "TASK-034",
+    "workflowId": "WF-2026-012",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-012",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 5,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:15:57.864Z",
+    "completedAt": "2026-09-05T10:15:57.911Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:15:57.751Z",
+    "updatedAt": "2026-09-05T10:15:57.911Z"
+  },
+  {
+    "id": 35,
+    "taskId": "TASK-035",
+    "workflowId": "WF-2026-013",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-013",
+      "eventId": 1,
+      "speaker": null
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 54.9,
+      "projectedHealthScore": 40.9,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 54.9 to 40.9.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:16:18.115Z",
+    "completedAt": "2026-09-05T10:16:18.180Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:16:18.082Z",
+    "updatedAt": "2026-09-05T10:16:18.180Z"
+  },
+  {
+    "id": 36,
+    "taskId": "TASK-036",
+    "workflowId": "WF-2026-013",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-013",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 6,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:16:18.219Z",
+    "completedAt": "2026-09-05T10:16:18.267Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:16:18.092Z",
+    "updatedAt": "2026-09-05T10:16:18.267Z"
+  },
+  {
+    "id": 37,
+    "taskId": "TASK-037",
+    "workflowId": "WF-2026-014",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-014",
+      "eventId": 1,
+      "speaker": null
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 54.9,
+      "projectedHealthScore": 40.9,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 54.9 to 40.9.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:16:41.720Z",
+    "completedAt": "2026-09-05T10:16:41.781Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:16:41.689Z",
+    "updatedAt": "2026-09-05T10:16:41.781Z"
+  },
+  {
+    "id": 38,
+    "taskId": "TASK-038",
+    "workflowId": "WF-2026-014",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-014",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 7,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:16:41.813Z",
+    "completedAt": "2026-09-05T10:16:41.862Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:16:41.696Z",
+    "updatedAt": "2026-09-05T10:16:41.862Z"
+  },
+  {
+    "id": 39,
+    "taskId": "TASK-039",
+    "workflowId": "WF-2026-015",
+    "agentId": "intelligence-agent",
+    "sequenceOrder": 1,
+    "dependencies": [],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-015",
+      "eventId": 1,
+      "speaker": null
+    },
+    "output": {
+      "eventId": 1,
+      "impactLevel": "HIGH",
+      "affectedAttendees": 180,
+      "scheduleImpact": true,
+      "venueImpact": true,
+      "riskLevel": "HIGH",
+      "currentHealthScore": 54.9,
+      "projectedHealthScore": 40.9,
+      "healthStatus": "WARNING",
+      "recommendedPriority": "P1",
+      "insights": [
+        "Session cancellation affects 180 registered attendees.",
+        "Event health projected to drop from 54.9 to 40.9.",
+        "Immediate venue rescheduling and attendee notification required."
+      ]
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.93,
+    "startedAt": "2026-09-05T10:19:26.163Z",
+    "completedAt": "2026-09-05T10:19:26.231Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:19:26.117Z",
+    "updatedAt": "2026-09-05T10:19:26.231Z"
+  },
+  {
+    "id": 40,
+    "taskId": "TASK-040",
+    "workflowId": "WF-2026-015",
+    "agentId": "notification-agent",
+    "sequenceOrder": 2,
+    "dependencies": [
+      "intelligence-agent"
+    ],
+    "status": "COMPLETED",
+    "input": {
+      "workflowId": "WF-2026-015",
+      "eventId": 1,
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "incident": null,
+      "attendeeImpact": null
+    },
+    "output": {
+      "alertId": "ALERT-0000",
+      "notificationId": 8,
+      "recipientRole": "admin",
+      "title": "Speaker Cancellation Alert",
+      "status": "DISPATCHED"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "confidence": 0.98,
+    "startedAt": "2026-09-05T10:19:26.261Z",
+    "completedAt": "2026-09-05T10:19:26.343Z",
+    "error": null,
+    "createdAt": "2026-09-05T10:19:26.126Z",
+    "updatedAt": "2026-09-05T10:19:26.343Z"
+  }
+]

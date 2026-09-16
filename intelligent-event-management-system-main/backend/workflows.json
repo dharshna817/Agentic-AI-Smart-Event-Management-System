@@ -1,0 +1,989 @@
+[
+  {
+    "id": 15,
+    "workflowId": "WF-2026-015",
+    "eventId": 1,
+    "triggerSource": "system",
+    "status": "COMPLETED",
+    "currentTask": "TASK-040",
+    "context": {
+      "eventId": 1,
+      "workflowId": "WF-2026-015",
+      "trigger": {
+        "source": "system",
+        "timestamp": "2026-09-05T10:19:26.088Z"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 54.9,
+        "projectedHealthScore": 40.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 54.9 to 40.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 8,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:19:26.088Z",
+        "updatedAt": "2026-09-05T10:19:26.347Z"
+      }
+    },
+    "idempotencyKey": "smoke-wf-1788603566075",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:19:26.084Z",
+    "updatedAt": "2026-09-05T10:19:26.396Z",
+    "completedAt": "2026-09-05T10:19:26.396Z",
+    "failureReason": null
+  },
+  {
+    "id": 14,
+    "workflowId": "WF-2026-014",
+    "eventId": 1,
+    "triggerSource": "system",
+    "status": "COMPLETED",
+    "currentTask": "TASK-038",
+    "context": {
+      "eventId": 1,
+      "workflowId": "WF-2026-014",
+      "trigger": {
+        "source": "system",
+        "timestamp": "2026-09-05T10:16:41.658Z"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 54.9,
+        "projectedHealthScore": 40.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 54.9 to 40.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 7,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:16:41.658Z",
+        "updatedAt": "2026-09-05T10:16:41.865Z"
+      }
+    },
+    "idempotencyKey": "smoke-wf-1788603401640",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:16:41.655Z",
+    "updatedAt": "2026-09-05T10:16:41.893Z",
+    "completedAt": "2026-09-05T10:16:41.893Z",
+    "failureReason": null
+  },
+  {
+    "id": 13,
+    "workflowId": "WF-2026-013",
+    "eventId": 1,
+    "triggerSource": "system",
+    "status": "COMPLETED",
+    "currentTask": "TASK-036",
+    "context": {
+      "eventId": 1,
+      "workflowId": "WF-2026-013",
+      "trigger": {
+        "source": "system",
+        "timestamp": "2026-09-05T10:16:18.046Z"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 54.9,
+        "projectedHealthScore": 40.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 54.9 to 40.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 6,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:16:18.046Z",
+        "updatedAt": "2026-09-05T10:16:18.272Z"
+      }
+    },
+    "idempotencyKey": "smoke-wf-1788603378028",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:16:18.043Z",
+    "updatedAt": "2026-09-05T10:16:18.298Z",
+    "completedAt": "2026-09-05T10:16:18.298Z",
+    "failureReason": null
+  },
+  {
+    "id": 12,
+    "workflowId": "WF-2026-012",
+    "eventId": 1,
+    "triggerSource": "system",
+    "status": "COMPLETED",
+    "currentTask": "TASK-034",
+    "context": {
+      "eventId": 1,
+      "workflowId": "WF-2026-012",
+      "trigger": {
+        "source": "system",
+        "timestamp": "2026-09-05T10:15:57.712Z"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 56.9,
+        "projectedHealthScore": 42.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 56.9 to 42.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 5,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:15:57.712Z",
+        "updatedAt": "2026-09-05T10:15:57.915Z"
+      }
+    },
+    "idempotencyKey": "smoke-wf-1788603357698",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:15:57.710Z",
+    "updatedAt": "2026-09-05T10:15:57.938Z",
+    "completedAt": "2026-09-05T10:15:57.938Z",
+    "failureReason": null
+  },
+  {
+    "id": 11,
+    "workflowId": "WF-2026-011",
+    "eventId": 1,
+    "triggerSource": "system",
+    "status": "COMPLETED",
+    "currentTask": "TASK-032",
+    "context": {
+      "eventId": 1,
+      "workflowId": "WF-2026-011",
+      "trigger": {
+        "source": "system",
+        "timestamp": "2026-09-05T10:15:16.305Z"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 59.3,
+        "projectedHealthScore": 45.3,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 59.3 to 45.3.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 4,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:15:16.305Z",
+        "updatedAt": "2026-09-05T10:15:16.467Z"
+      }
+    },
+    "idempotencyKey": "smoke-wf-1788603316291",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:15:16.301Z",
+    "updatedAt": "2026-09-05T10:15:16.489Z",
+    "completedAt": "2026-09-05T10:15:16.489Z",
+    "failureReason": null
+  },
+  {
+    "id": 10,
+    "workflowId": "WF-2026-010",
+    "eventId": 1,
+    "triggerSource": "system",
+    "status": "COMPLETED",
+    "currentTask": "TASK-030",
+    "context": {
+      "eventId": 1,
+      "workflowId": "WF-2026-010",
+      "trigger": {
+        "source": "system",
+        "timestamp": "2026-09-05T10:15:02.610Z"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 61.7,
+        "projectedHealthScore": 47.7,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 61.7 to 47.7.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 3,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:15:02.610Z",
+        "updatedAt": "2026-09-05T10:15:02.800Z"
+      }
+    },
+    "idempotencyKey": "smoke-wf-1788603302593",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:15:02.606Z",
+    "updatedAt": "2026-09-05T10:15:02.822Z",
+    "completedAt": "2026-09-05T10:15:02.822Z",
+    "failureReason": null
+  },
+  {
+    "id": 9,
+    "workflowId": "WF-2026-009",
+    "eventId": 1,
+    "triggerType": "SPEAKER_CANCELLATION",
+    "triggerSource": "speaker_portal",
+    "status": "COMPLETED",
+    "currentTask": "TASK-028",
+    "context": {
+      "eventId": 1,
+      "speakerId": 5,
+      "sessionId": 12,
+      "reason": "Urgent medical emergency",
+      "speakerName": "Dr. Jane Doe",
+      "workflowId": "WF-2026-009",
+      "trigger": {
+        "type": "SPEAKER_CANCELLATION",
+        "source": "speaker_portal",
+        "timestamp": "2026-09-05T10:06:33.762Z",
+        "triggerType": "SPEAKER_CANCELLATION",
+        "eventType": "SPEAKER_CANCELLATION",
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T10:06:33.762Z",
+        "updatedAt": "2026-09-05T10:06:34.006Z"
+      }
+    },
+    "idempotencyKey": "SPEAKER_CANCELLATION_E2E_1788602793742",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T10:06:33.758Z",
+    "updatedAt": "2026-09-05T10:06:34.031Z",
+    "completedAt": "2026-09-05T10:06:34.031Z",
+    "failureReason": null
+  },
+  {
+    "id": 8,
+    "workflowId": "WF-2026-008",
+    "eventId": 1,
+    "triggerType": "SPEAKER_CANCELLATION",
+    "triggerSource": "speaker_portal",
+    "status": "COMPLETED",
+    "currentTask": "TASK-026",
+    "context": {
+      "eventId": 1,
+      "speakerId": 5,
+      "sessionId": 12,
+      "reason": "Urgent medical emergency",
+      "speakerName": "Dr. Jane Doe",
+      "workflowId": "WF-2026-008",
+      "trigger": {
+        "type": "SPEAKER_CANCELLATION",
+        "source": "speaker_portal",
+        "timestamp": "2026-09-05T09:29:11.514Z",
+        "triggerType": "SPEAKER_CANCELLATION",
+        "eventType": "SPEAKER_CANCELLATION",
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T09:29:11.514Z",
+        "updatedAt": "2026-09-05T09:29:11.746Z"
+      }
+    },
+    "idempotencyKey": "SPEAKER_CANCELLATION_E2E_1788600551499",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T09:29:11.510Z",
+    "updatedAt": "2026-09-05T09:29:11.781Z",
+    "completedAt": "2026-09-05T09:29:11.781Z",
+    "failureReason": null
+  },
+  {
+    "id": 7,
+    "workflowId": "WF-2026-007",
+    "eventId": 1,
+    "triggerType": "SPEAKER_CANCELLATION",
+    "triggerSource": "speaker_portal",
+    "status": "COMPLETED",
+    "currentTask": "TASK-024",
+    "context": {
+      "eventId": 1,
+      "speakerId": 5,
+      "sessionId": 12,
+      "reason": "Urgent medical emergency",
+      "speakerName": "Dr. Jane Doe",
+      "workflowId": "WF-2026-007",
+      "trigger": {
+        "type": "SPEAKER_CANCELLATION",
+        "source": "speaker_portal",
+        "timestamp": "2026-09-05T09:28:38.236Z",
+        "triggerType": "SPEAKER_CANCELLATION",
+        "eventType": "SPEAKER_CANCELLATION",
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T09:28:38.236Z",
+        "updatedAt": "2026-09-05T09:28:38.420Z"
+      }
+    },
+    "idempotencyKey": "SPEAKER_CANCELLATION_E2E_1788600518221",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T09:28:38.234Z",
+    "updatedAt": "2026-09-05T09:28:38.440Z",
+    "completedAt": "2026-09-05T09:28:38.440Z",
+    "failureReason": null
+  },
+  {
+    "id": 6,
+    "workflowId": "WF-2026-006",
+    "eventId": 1,
+    "triggerType": "SPEAKER_CANCELLATION",
+    "triggerSource": "speaker_portal",
+    "status": "COMPLETED",
+    "currentTask": "TASK-022",
+    "context": {
+      "eventId": 1,
+      "speakerId": 5,
+      "sessionId": 12,
+      "reason": "Urgent medical emergency",
+      "speakerName": "Dr. Jane Doe",
+      "workflowId": "WF-2026-006",
+      "trigger": {
+        "type": "SPEAKER_CANCELLATION",
+        "source": "speaker_portal",
+        "timestamp": "2026-09-05T09:28:21.265Z",
+        "triggerType": "SPEAKER_CANCELLATION",
+        "eventType": "SPEAKER_CANCELLATION",
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      },
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T09:28:21.265Z",
+        "updatedAt": "2026-09-05T09:28:21.432Z"
+      }
+    },
+    "idempotencyKey": "SPEAKER_CANCELLATION_E2E_1788600501250",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T09:28:21.262Z",
+    "updatedAt": "2026-09-05T09:28:21.455Z",
+    "completedAt": "2026-09-05T09:28:21.455Z",
+    "failureReason": null
+  },
+  {
+    "id": 5,
+    "workflowId": "WF-2026-005",
+    "eventId": 1,
+    "triggerType": "SPEAKER_CANCELLATION",
+    "triggerSource": "speaker_portal",
+    "status": "RUNNING",
+    "currentTask": "TASK-020",
+    "context": {
+      "eventId": 1,
+      "speakerId": 5,
+      "sessionId": 12,
+      "reason": "Urgent medical emergency",
+      "speakerName": "Dr. Jane Doe",
+      "workflowId": "WF-2026-005",
+      "trigger": {
+        "type": "SPEAKER_CANCELLATION",
+        "source": "speaker_portal",
+        "timestamp": "2026-09-05T09:27:20.412Z",
+        "triggerType": "SPEAKER_CANCELLATION",
+        "eventType": "SPEAKER_CANCELLATION",
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": null,
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-05T09:27:20.412Z",
+        "updatedAt": "2026-09-05T09:27:20.548Z"
+      }
+    },
+    "idempotencyKey": "SPEAKER_CANCELLATION_1_12_5",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-05T09:27:20.408Z",
+    "updatedAt": "2026-09-05T09:27:20.585Z",
+    "completedAt": null,
+    "failureReason": null
+  },
+  {
+    "id": 4,
+    "workflowId": "WF-2026-004",
+    "eventId": 1,
+    "triggerType": "registration.spike",
+    "triggerSource": "admin-dashboard-demo",
+    "status": "RUNNING",
+    "currentTask": "TASK-017",
+    "context": {
+      "eventId": 1,
+      "speakerId": 1,
+      "speakerName": "Dr. Sarah Chen",
+      "sessionId": 1,
+      "sessionName": "Opening Keynote: Agentic AI Systems",
+      "expectedAttendees": 180,
+      "workflowId": "WF-2026-004",
+      "trigger": {
+        "type": "registration.spike",
+        "source": "admin-dashboard-demo",
+        "timestamp": "2026-09-04T16:23:37.389Z",
+        "triggerType": "registration.spike",
+        "eventType": "registration.spike",
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      },
+      "speaker": null,
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 90.8,
+        "projectedHealthScore": 76.8,
+        "healthStatus": "HEALTHY",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 90.8 to 76.8.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": null,
+      "attendeeImpact": {
+        "sessionId": 1,
+        "affectedAttendeesCount": 180,
+        "registeredAttendeesFound": 180,
+        "notificationRequired": true,
+        "checkInImpact": "MODERATE",
+        "sampleAffectedAttendees": [
+          {
+            "registrationId": "REG-MSA55R41",
+            "fullName": "DHARSHNA S",
+            "email": "dharshnasubramani@gmail.com"
+          }
+        ],
+        "recommendedChannel": "EMAIL_AND_PUSH"
+      },
+      "incident": null,
+      "notification": null,
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-04T16:23:37.389Z",
+        "updatedAt": "2026-09-04T16:23:37.838Z"
+      }
+    },
+    "idempotencyKey": "registration.spike_1_1_1",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-04T16:23:37.380Z",
+    "updatedAt": "2026-09-04T16:23:37.912Z",
+    "completedAt": null,
+    "failureReason": null
+  },
+  {
+    "id": 3,
+    "workflowId": "WF-2026-003",
+    "eventId": 1,
+    "triggerType": "venue.unavailable",
+    "triggerSource": "admin-dashboard-demo",
+    "status": "CANCELLED",
+    "currentTask": "TASK-010",
+    "context": {
+      "eventId": 1,
+      "speakerId": 1,
+      "speakerName": "Dr. Sarah Chen",
+      "sessionId": 1,
+      "sessionName": "Opening Keynote: Agentic AI Systems",
+      "expectedAttendees": 180,
+      "workflowId": "WF-2026-003",
+      "trigger": {
+        "type": "venue.unavailable",
+        "source": "admin-dashboard-demo",
+        "timestamp": "2026-09-04T16:23:16.039Z",
+        "triggerType": "venue.unavailable",
+        "eventType": "venue.unavailable",
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      },
+      "speaker": null,
+      "impact": null,
+      "venueOptions": {
+        "recommendedVenueId": 1,
+        "recommendedVenueName": "Grand Auditorium",
+        "location": "North Campus",
+        "availableTime": "14:00 - 15:30",
+        "capacity": 500,
+        "requiredCapacity": 180,
+        "utilizationRate": 36,
+        "conflicts": [],
+        "alternateOptions": [
+          {
+            "venueId": 2,
+            "name": "Innovation Hall",
+            "location": "Research Wing",
+            "capacity": 220,
+            "status": "available",
+            "venueType": "Conference Hall"
+          },
+          {
+            "venueId": 3,
+            "name": "Summit Lab",
+            "location": "Innovation Center",
+            "capacity": 120,
+            "status": "available",
+            "venueType": "Workshop Room"
+          }
+        ]
+      },
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": null,
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-04T16:23:16.039Z",
+        "updatedAt": "2026-09-04T16:23:16.297Z"
+      }
+    },
+    "idempotencyKey": "venue.unavailable_1_1_1",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-04T16:23:16.031Z",
+    "updatedAt": "2026-09-04T16:23:24.094Z",
+    "completedAt": "2026-09-04T16:23:24.094Z",
+    "failureReason": "Workflow cancelled due to human rejection: Schedule conflict with parallel session"
+  },
+  {
+    "id": 2,
+    "workflowId": "WF-2026-002",
+    "eventId": 1,
+    "triggerType": "incident.created",
+    "triggerSource": "admin-dashboard-demo",
+    "status": "RUNNING",
+    "currentTask": "TASK-007",
+    "context": {
+      "eventId": 1,
+      "speakerId": 1,
+      "speakerName": "Dr. Sarah Chen",
+      "sessionId": 1,
+      "sessionName": "Opening Keynote: Agentic AI Systems",
+      "expectedAttendees": 180,
+      "workflowId": "WF-2026-002",
+      "trigger": {
+        "type": "incident.created",
+        "source": "admin-dashboard-demo",
+        "timestamp": "2026-09-04T16:20:37.411Z",
+        "triggerType": "incident.created",
+        "eventType": "incident.created",
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      },
+      "speaker": null,
+      "impact": null,
+      "venueOptions": null,
+      "attendeeImpact": null,
+      "incident": null,
+      "notification": null,
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-04T16:20:37.411Z",
+        "updatedAt": "2026-09-04T16:20:37.411Z"
+      }
+    },
+    "idempotencyKey": "incident.created_1_1_1",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-04T16:20:37.405Z",
+    "updatedAt": "2026-09-04T16:20:37.563Z",
+    "completedAt": null,
+    "failureReason": null
+  },
+  {
+    "id": 1,
+    "workflowId": "WF-2026-001",
+    "eventId": 1,
+    "triggerType": "speaker.cancelled",
+    "triggerSource": "admin-dashboard-demo",
+    "status": "RUNNING",
+    "currentTask": "TASK-005",
+    "context": {
+      "eventId": 1,
+      "speakerId": 1,
+      "speakerName": "Dr. Sarah Chen",
+      "sessionId": 1,
+      "sessionName": "Opening Keynote: Agentic AI Systems",
+      "expectedAttendees": 180,
+      "workflowId": "WF-2026-001",
+      "trigger": {
+        "type": "speaker.cancelled",
+        "source": "admin-dashboard-demo",
+        "timestamp": "2026-09-04T16:18:34.074Z",
+        "triggerType": "speaker.cancelled",
+        "eventType": "speaker.cancelled",
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      },
+      "speaker": {
+        "eventType": "speaker.cancelled",
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote",
+        "eventId": 1,
+        "eventName": "AI Tech Summit",
+        "cancellationTimestamp": "2026-09-04T16:18:34.369Z",
+        "expectedAttendance": 320,
+        "reason": "Speaker emergency cancellation received."
+      },
+      "impact": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 320,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 90.8,
+        "projectedHealthScore": 76.8,
+        "healthStatus": "HEALTHY",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 320 registered attendees.",
+          "Event health projected to drop from 90.8 to 76.8.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      },
+      "venueOptions": {
+        "recommendedVenueId": 1,
+        "recommendedVenueName": "Grand Auditorium",
+        "location": "North Campus",
+        "availableTime": "14:00 - 15:30",
+        "capacity": 500,
+        "requiredCapacity": 320,
+        "utilizationRate": 64,
+        "conflicts": [],
+        "alternateOptions": [
+          {
+            "venueId": 2,
+            "name": "Innovation Hall",
+            "location": "Research Wing",
+            "capacity": 220,
+            "status": "available",
+            "venueType": "Conference Hall"
+          },
+          {
+            "venueId": 3,
+            "name": "Summit Lab",
+            "location": "Innovation Center",
+            "capacity": 120,
+            "status": "available",
+            "venueType": "Workshop Room"
+          }
+        ]
+      },
+      "attendeeImpact": {
+        "sessionId": 1,
+        "affectedAttendeesCount": 320,
+        "registeredAttendeesFound": 320,
+        "notificationRequired": true,
+        "checkInImpact": "MODERATE",
+        "sampleAffectedAttendees": [
+          {
+            "registrationId": "REG-MSA55R41",
+            "fullName": "DHARSHNA S",
+            "email": "dharshnasubramani@gmail.com"
+          }
+        ],
+        "recommendedChannel": "EMAIL_AND_PUSH"
+      },
+      "incident": null,
+      "notification": null,
+      "sponsorship": null,
+      "meta": {
+        "startedAt": "2026-09-04T16:18:34.074Z",
+        "updatedAt": "2026-09-04T16:18:40.341Z"
+      }
+    },
+    "idempotencyKey": "speaker.cancelled_1_1_1",
+    "tasks": [],
+    "approvals": [],
+    "createdAt": "2026-09-04T16:18:34.070Z",
+    "updatedAt": "2026-09-04T16:18:40.418Z",
+    "completedAt": null,
+    "failureReason": null
+  }
+]

@@ -1,0 +1,3681 @@
+[
+  {
+    "id": 202,
+    "auditId": "AUD-0202",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-07T14:38:15.354Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 201,
+    "auditId": "AUD-0201",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-07T14:38:12.409Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 200,
+    "auditId": "AUD-0200",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-07T14:37:39.588Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 199,
+    "auditId": "AUD-0199",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T16:40:15.562Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 198,
+    "auditId": "AUD-0198",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T16:40:10.933Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 197,
+    "auditId": "AUD-0197",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T16:39:48.415Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 196,
+    "auditId": "AUD-0196",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T16:39:44.216Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 195,
+    "auditId": "AUD-0195",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:23.054Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 194,
+    "auditId": "AUD-0194",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:22.827Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 193,
+    "auditId": "AUD-0193",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:22.673Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 192,
+    "auditId": "AUD-0192",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:22.479Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 191,
+    "auditId": "AUD-0191",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:22.340Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 190,
+    "auditId": "AUD-0190",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:22.130Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 189,
+    "auditId": "AUD-0189",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:21.933Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 188,
+    "auditId": "AUD-0188",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:21.268Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 187,
+    "auditId": "AUD-0187",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:20.536Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 186,
+    "auditId": "AUD-0186",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:20.300Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 185,
+    "auditId": "AUD-0185",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:20.139Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 184,
+    "auditId": "AUD-0184",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:19.936Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 183,
+    "auditId": "AUD-0183",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:19.753Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 182,
+    "auditId": "AUD-0182",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:19.569Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 181,
+    "auditId": "AUD-0181",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:19.407Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 180,
+    "auditId": "AUD-0180",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:19.250Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 179,
+    "auditId": "AUD-0179",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:19.082Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 178,
+    "auditId": "AUD-0178",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:18.039Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 177,
+    "auditId": "AUD-0177",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:13.409Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 176,
+    "auditId": "AUD-0176",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:21:09.788Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 175,
+    "auditId": "AUD-0175",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:23.771Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 174,
+    "auditId": "AUD-0174",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:19.573Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 173,
+    "auditId": "AUD-0173",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:17.956Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 172,
+    "auditId": "AUD-0172",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:16.028Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 171,
+    "auditId": "AUD-0171",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:10.485Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 170,
+    "auditId": "AUD-0170",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:04.829Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 169,
+    "auditId": "AUD-0169",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T11:11:03.556Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 168,
+    "auditId": "AUD-0168",
+    "workflowId": "WF-2026-015",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:19:26.412Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 167,
+    "auditId": "AUD-0167",
+    "workflowId": "WF-2026-015",
+    "agentId": "notification-agent",
+    "taskId": "TASK-040",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:19:26.361Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 8,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 166,
+    "auditId": "AUD-0166",
+    "workflowId": "WF-2026-015",
+    "agentId": "notification-agent",
+    "taskId": "TASK-040",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:19:26.284Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-015",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 54.9,
+          "projectedHealthScore": 40.9,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 54.9 to 40.9.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 165,
+    "auditId": "AUD-0165",
+    "workflowId": "WF-2026-015",
+    "agentId": "notification-agent",
+    "taskId": "TASK-040",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:19:26.277Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 164,
+    "auditId": "AUD-0164",
+    "workflowId": "WF-2026-015",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-039",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:19:26.246Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 54.9,
+        "projectedHealthScore": 40.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 54.9 to 40.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 163,
+    "auditId": "AUD-0163",
+    "workflowId": "WF-2026-015",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-039",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:19:26.194Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-015",
+        "eventId": 1,
+        "speaker": null
+      }
+    }
+  },
+  {
+    "id": 162,
+    "auditId": "AUD-0162",
+    "workflowId": "WF-2026-015",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-039",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:19:26.186Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 161,
+    "auditId": "AUD-0161",
+    "workflowId": "WF-2026-015",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:19:26.110Z",
+    "metadata": {
+      "metadata": {}
+    }
+  },
+  {
+    "id": 160,
+    "auditId": "AUD-0160",
+    "workflowId": "WF-2026-015",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:19:26.100Z",
+    "metadata": {
+      "source": "system",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 159,
+    "auditId": "AUD-0159",
+    "workflowId": "WF-2026-014",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:41.901Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 158,
+    "auditId": "AUD-0158",
+    "workflowId": "WF-2026-014",
+    "agentId": "notification-agent",
+    "taskId": "TASK-038",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:41.877Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 7,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 157,
+    "auditId": "AUD-0157",
+    "workflowId": "WF-2026-014",
+    "agentId": "notification-agent",
+    "taskId": "TASK-038",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:41.838Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-014",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 54.9,
+          "projectedHealthScore": 40.9,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 54.9 to 40.9.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 156,
+    "auditId": "AUD-0156",
+    "workflowId": "WF-2026-014",
+    "agentId": "notification-agent",
+    "taskId": "TASK-038",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:41.831Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 155,
+    "auditId": "AUD-0155",
+    "workflowId": "WF-2026-014",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-037",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:41.797Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 54.9,
+        "projectedHealthScore": 40.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 54.9 to 40.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 154,
+    "auditId": "AUD-0154",
+    "workflowId": "WF-2026-014",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-037",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:41.744Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-014",
+        "eventId": 1,
+        "speaker": null
+      }
+    }
+  },
+  {
+    "id": 153,
+    "auditId": "AUD-0153",
+    "workflowId": "WF-2026-014",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-037",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:41.736Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 152,
+    "auditId": "AUD-0152",
+    "workflowId": "WF-2026-014",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:41.680Z",
+    "metadata": {
+      "metadata": {}
+    }
+  },
+  {
+    "id": 151,
+    "auditId": "AUD-0151",
+    "workflowId": "WF-2026-014",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:41.673Z",
+    "metadata": {
+      "source": "system",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 150,
+    "auditId": "AUD-0150",
+    "workflowId": "WF-2026-013",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:18.306Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 149,
+    "auditId": "AUD-0149",
+    "workflowId": "WF-2026-013",
+    "agentId": "notification-agent",
+    "taskId": "TASK-036",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:18.283Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 6,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 148,
+    "auditId": "AUD-0148",
+    "workflowId": "WF-2026-013",
+    "agentId": "notification-agent",
+    "taskId": "TASK-036",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:18.243Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-013",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 54.9,
+          "projectedHealthScore": 40.9,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 54.9 to 40.9.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 147,
+    "auditId": "AUD-0147",
+    "workflowId": "WF-2026-013",
+    "agentId": "notification-agent",
+    "taskId": "TASK-036",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:18.234Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 146,
+    "auditId": "AUD-0146",
+    "workflowId": "WF-2026-013",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-035",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:18.199Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 54.9,
+        "projectedHealthScore": 40.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 54.9 to 40.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 145,
+    "auditId": "AUD-0145",
+    "workflowId": "WF-2026-013",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-035",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:18.141Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-013",
+        "eventId": 1,
+        "speaker": null
+      }
+    }
+  },
+  {
+    "id": 144,
+    "auditId": "AUD-0144",
+    "workflowId": "WF-2026-013",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-035",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:16:18.132Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 143,
+    "auditId": "AUD-0143",
+    "workflowId": "WF-2026-013",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:18.071Z",
+    "metadata": {
+      "metadata": {}
+    }
+  },
+  {
+    "id": 142,
+    "auditId": "AUD-0142",
+    "workflowId": "WF-2026-013",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:16:18.060Z",
+    "metadata": {
+      "source": "system",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 141,
+    "auditId": "AUD-0141",
+    "workflowId": "WF-2026-012",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:57.944Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 140,
+    "auditId": "AUD-0140",
+    "workflowId": "WF-2026-012",
+    "agentId": "notification-agent",
+    "taskId": "TASK-034",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:57.925Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 5,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 139,
+    "auditId": "AUD-0139",
+    "workflowId": "WF-2026-012",
+    "agentId": "notification-agent",
+    "taskId": "TASK-034",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:57.884Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-012",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 56.9,
+          "projectedHealthScore": 42.9,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 56.9 to 42.9.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 138,
+    "auditId": "AUD-0138",
+    "workflowId": "WF-2026-012",
+    "agentId": "notification-agent",
+    "taskId": "TASK-034",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:57.878Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 137,
+    "auditId": "AUD-0137",
+    "workflowId": "WF-2026-012",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-033",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:57.848Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 56.9,
+        "projectedHealthScore": 42.9,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 56.9 to 42.9.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 136,
+    "auditId": "AUD-0136",
+    "workflowId": "WF-2026-012",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-033",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:57.796Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-012",
+        "eventId": 1,
+        "speaker": null
+      }
+    }
+  },
+  {
+    "id": 135,
+    "auditId": "AUD-0135",
+    "workflowId": "WF-2026-012",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-033",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:57.787Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 134,
+    "auditId": "AUD-0134",
+    "workflowId": "WF-2026-012",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:57.735Z",
+    "metadata": {
+      "metadata": {}
+    }
+  },
+  {
+    "id": 133,
+    "auditId": "AUD-0133",
+    "workflowId": "WF-2026-012",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:57.728Z",
+    "metadata": {
+      "source": "system",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 132,
+    "auditId": "AUD-0132",
+    "workflowId": "WF-2026-011",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:16.495Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 131,
+    "auditId": "AUD-0131",
+    "workflowId": "WF-2026-011",
+    "agentId": "notification-agent",
+    "taskId": "TASK-032",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:16.477Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 4,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "auditId": "AUD-0130",
+    "workflowId": "WF-2026-011",
+    "agentId": "notification-agent",
+    "taskId": "TASK-032",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:16.447Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-011",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 59.3,
+          "projectedHealthScore": 45.3,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 59.3 to 45.3.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 129,
+    "auditId": "AUD-0129",
+    "workflowId": "WF-2026-011",
+    "agentId": "notification-agent",
+    "taskId": "TASK-032",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:16.441Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 128,
+    "auditId": "AUD-0128",
+    "workflowId": "WF-2026-011",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-031",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:16.416Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 59.3,
+        "projectedHealthScore": 45.3,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 59.3 to 45.3.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 127,
+    "auditId": "AUD-0127",
+    "workflowId": "WF-2026-011",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-031",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:16.373Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-011",
+        "eventId": 1,
+        "speaker": null
+      }
+    }
+  },
+  {
+    "id": 126,
+    "auditId": "AUD-0126",
+    "workflowId": "WF-2026-011",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-031",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:16.366Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 125,
+    "auditId": "AUD-0125",
+    "workflowId": "WF-2026-011",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:16.322Z",
+    "metadata": {
+      "metadata": {}
+    }
+  },
+  {
+    "id": 124,
+    "auditId": "AUD-0124",
+    "workflowId": "WF-2026-011",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:16.315Z",
+    "metadata": {
+      "source": "system",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 123,
+    "auditId": "AUD-0123",
+    "workflowId": "WF-2026-010",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:02.828Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 122,
+    "auditId": "AUD-0122",
+    "workflowId": "WF-2026-010",
+    "agentId": "notification-agent",
+    "taskId": "TASK-030",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:02.810Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 3,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "auditId": "AUD-0121",
+    "workflowId": "WF-2026-010",
+    "agentId": "notification-agent",
+    "taskId": "TASK-030",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:02.776Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-010",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 61.7,
+          "projectedHealthScore": 47.7,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 61.7 to 47.7.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 120,
+    "auditId": "AUD-0120",
+    "workflowId": "WF-2026-010",
+    "agentId": "notification-agent",
+    "taskId": "TASK-030",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:02.768Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 119,
+    "auditId": "AUD-0119",
+    "workflowId": "WF-2026-010",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-029",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:02.743Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 61.7,
+        "projectedHealthScore": 47.7,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 61.7 to 47.7.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 118,
+    "auditId": "AUD-0118",
+    "workflowId": "WF-2026-010",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-029",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:02.698Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-010",
+        "eventId": 1,
+        "speaker": null
+      }
+    }
+  },
+  {
+    "id": 117,
+    "auditId": "AUD-0117",
+    "workflowId": "WF-2026-010",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-029",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:15:02.692Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 116,
+    "auditId": "AUD-0116",
+    "workflowId": "WF-2026-010",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:02.633Z",
+    "metadata": {
+      "metadata": {}
+    }
+  },
+  {
+    "id": 115,
+    "auditId": "AUD-0115",
+    "workflowId": "WF-2026-010",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:15:02.626Z",
+    "metadata": {
+      "source": "system",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 114,
+    "auditId": "AUD-0114",
+    "workflowId": "WF-2026-009",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:06:34.038Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 113,
+    "auditId": "AUD-0113",
+    "workflowId": "WF-2026-009",
+    "agentId": "notification-agent",
+    "taskId": "TASK-028",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:06:34.016Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "auditId": "AUD-0112",
+    "workflowId": "WF-2026-009",
+    "agentId": "notification-agent",
+    "taskId": "TASK-028",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:06:33.981Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-009",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 72.5,
+          "projectedHealthScore": 58.5,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 72.5 to 58.5.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 111,
+    "auditId": "AUD-0111",
+    "workflowId": "WF-2026-009",
+    "agentId": "notification-agent",
+    "taskId": "TASK-028",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:06:33.974Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 110,
+    "auditId": "AUD-0110",
+    "workflowId": "WF-2026-009",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-027",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:06:33.947Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 109,
+    "auditId": "AUD-0109",
+    "workflowId": "WF-2026-009",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-027",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:06:33.895Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-009",
+        "eventId": 1,
+        "speaker": null,
+        "triggerType": "SPEAKER_CANCELLATION"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "auditId": "AUD-0108",
+    "workflowId": "WF-2026-009",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-027",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T10:06:33.871Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 107,
+    "auditId": "AUD-0107",
+    "workflowId": "WF-2026-009",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:06:33.813Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "metadata": {
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "auditId": "AUD-0106",
+    "workflowId": "WF-2026-009",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T10:06:33.805Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "source": "speaker_portal",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 105,
+    "auditId": "AUD-0105",
+    "workflowId": "WF-2026-008",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:29:11.791Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 104,
+    "auditId": "AUD-0104",
+    "workflowId": "WF-2026-008",
+    "agentId": "notification-agent",
+    "taskId": "TASK-026",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:29:11.761Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "auditId": "AUD-0103",
+    "workflowId": "WF-2026-008",
+    "agentId": "notification-agent",
+    "taskId": "TASK-026",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:29:11.712Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-008",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 72.5,
+          "projectedHealthScore": 58.5,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 72.5 to 58.5.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 102,
+    "auditId": "AUD-0102",
+    "workflowId": "WF-2026-008",
+    "agentId": "notification-agent",
+    "taskId": "TASK-026",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:29:11.701Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 101,
+    "auditId": "AUD-0101",
+    "workflowId": "WF-2026-008",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-025",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:29:11.668Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 100,
+    "auditId": "AUD-0100",
+    "workflowId": "WF-2026-008",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-025",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:29:11.607Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-008",
+        "eventId": 1,
+        "speaker": null,
+        "triggerType": "SPEAKER_CANCELLATION"
+      }
+    }
+  },
+  {
+    "id": 99,
+    "auditId": "AUD-0099",
+    "workflowId": "WF-2026-008",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-025",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:29:11.596Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 98,
+    "auditId": "AUD-0098",
+    "workflowId": "WF-2026-008",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:29:11.537Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "metadata": {
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "auditId": "AUD-0097",
+    "workflowId": "WF-2026-008",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:29:11.528Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "source": "speaker_portal",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 96,
+    "auditId": "AUD-0096",
+    "workflowId": "WF-2026-007",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:38.444Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 95,
+    "auditId": "AUD-0095",
+    "workflowId": "WF-2026-007",
+    "agentId": "notification-agent",
+    "taskId": "TASK-024",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:38.428Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "auditId": "AUD-0094",
+    "workflowId": "WF-2026-007",
+    "agentId": "notification-agent",
+    "taskId": "TASK-024",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:38.397Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-007",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 72.5,
+          "projectedHealthScore": 58.5,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 72.5 to 58.5.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 93,
+    "auditId": "AUD-0093",
+    "workflowId": "WF-2026-007",
+    "agentId": "notification-agent",
+    "taskId": "TASK-024",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:38.390Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 92,
+    "auditId": "AUD-0092",
+    "workflowId": "WF-2026-007",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-023",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:38.366Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 91,
+    "auditId": "AUD-0091",
+    "workflowId": "WF-2026-007",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-023",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:38.300Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-007",
+        "eventId": 1,
+        "speaker": null,
+        "triggerType": "SPEAKER_CANCELLATION"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "auditId": "AUD-0090",
+    "workflowId": "WF-2026-007",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-023",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:38.293Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 89,
+    "auditId": "AUD-0089",
+    "workflowId": "WF-2026-007",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:38.252Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "metadata": {
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "auditId": "AUD-0088",
+    "workflowId": "WF-2026-007",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:38.246Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "source": "speaker_portal",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 87,
+    "auditId": "AUD-0087",
+    "workflowId": "WF-2026-006",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_COMPLETED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:21.461Z",
+    "metadata": {
+      "taskCount": 2
+    }
+  },
+  {
+    "id": 86,
+    "auditId": "AUD-0086",
+    "workflowId": "WF-2026-006",
+    "agentId": "notification-agent",
+    "taskId": "TASK-022",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:21.442Z",
+    "metadata": {
+      "confidence": 0.98,
+      "result": {
+        "alertId": "ALERT-0000",
+        "notificationId": 2,
+        "recipientRole": "admin",
+        "title": "Speaker Cancellation Alert",
+        "status": "DISPATCHED"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "auditId": "AUD-0085",
+    "workflowId": "WF-2026-006",
+    "agentId": "notification-agent",
+    "taskId": "TASK-022",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:21.412Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-006",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 72.5,
+          "projectedHealthScore": 58.5,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 72.5 to 58.5.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 84,
+    "auditId": "AUD-0084",
+    "workflowId": "WF-2026-006",
+    "agentId": "notification-agent",
+    "taskId": "TASK-022",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:21.406Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 83,
+    "auditId": "AUD-0083",
+    "workflowId": "WF-2026-006",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-021",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:21.378Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 82,
+    "auditId": "AUD-0082",
+    "workflowId": "WF-2026-006",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-021",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:21.330Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-006",
+        "eventId": 1,
+        "speaker": null,
+        "triggerType": "SPEAKER_CANCELLATION"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "auditId": "AUD-0081",
+    "workflowId": "WF-2026-006",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-021",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:28:21.324Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 80,
+    "auditId": "AUD-0080",
+    "workflowId": "WF-2026-006",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:21.283Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "metadata": {
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "auditId": "AUD-0079",
+    "workflowId": "WF-2026-006",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:28:21.276Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "source": "speaker_portal",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 78,
+    "auditId": "AUD-0078",
+    "workflowId": "WF-2026-005",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T09:27:56.399Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "idempotencyKey": "SPEAKER_CANCELLATION_1_12_5"
+    }
+  },
+  {
+    "id": 77,
+    "auditId": "AUD-0077",
+    "workflowId": "WF-2026-005",
+    "agentId": "notification-agent",
+    "taskId": "TASK-020",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:27:20.602Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-005",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 72.5,
+          "projectedHealthScore": 58.5,
+          "healthStatus": "WARNING",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 72.5 to 58.5.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "incident": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 76,
+    "auditId": "AUD-0076",
+    "workflowId": "WF-2026-005",
+    "agentId": "notification-agent",
+    "taskId": "TASK-020",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:27:20.594Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 75,
+    "auditId": "AUD-0075",
+    "workflowId": "WF-2026-005",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-019",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:27:20.561Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 72.5,
+        "projectedHealthScore": 58.5,
+        "healthStatus": "WARNING",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 72.5 to 58.5.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 74,
+    "auditId": "AUD-0074",
+    "workflowId": "WF-2026-005",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-019",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:27:20.501Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-005",
+        "eventId": 1,
+        "speaker": null,
+        "triggerType": "SPEAKER_CANCELLATION"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "auditId": "AUD-0073",
+    "workflowId": "WF-2026-005",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-019",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-05T09:27:20.493Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 72,
+    "auditId": "AUD-0072",
+    "workflowId": "WF-2026-005",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:27:20.443Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "metadata": {
+        "speakerId": 5,
+        "sessionId": 12,
+        "reason": "Urgent medical emergency",
+        "speakerName": "Dr. Jane Doe"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "auditId": "AUD-0071",
+    "workflowId": "WF-2026-005",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-05T09:27:20.426Z",
+    "metadata": {
+      "triggerType": "SPEAKER_CANCELLATION",
+      "source": "speaker_portal",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 70,
+    "auditId": "AUD-0070",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:34.120Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 69,
+    "auditId": "AUD-0069",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:33.891Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 68,
+    "auditId": "AUD-0068",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:33.713Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 67,
+    "auditId": "AUD-0067",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:32.723Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 66,
+    "auditId": "AUD-0066",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:31.493Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 65,
+    "auditId": "AUD-0065",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:30.397Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 64,
+    "auditId": "AUD-0064",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:27.482Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 63,
+    "auditId": "AUD-0063",
+    "workflowId": "WF-2026-002",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:25.599Z",
+    "metadata": {
+      "triggerType": "incident.created",
+      "idempotencyKey": "incident.created_1_1_1"
+    }
+  },
+  {
+    "id": 62,
+    "auditId": "AUD-0062",
+    "workflowId": "WF-2026-002",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:24.358Z",
+    "metadata": {
+      "triggerType": "incident.created",
+      "idempotencyKey": "incident.created_1_1_1"
+    }
+  },
+  {
+    "id": 61,
+    "auditId": "AUD-0061",
+    "workflowId": "WF-2026-002",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:23.238Z",
+    "metadata": {
+      "triggerType": "incident.created",
+      "idempotencyKey": "incident.created_1_1_1"
+    }
+  },
+  {
+    "id": 60,
+    "auditId": "AUD-0060",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:16.911Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 59,
+    "auditId": "AUD-0059",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:16.678Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 58,
+    "auditId": "AUD-0058",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:16.496Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 57,
+    "auditId": "AUD-0057",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:16.302Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 56,
+    "auditId": "AUD-0056",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:16.140Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 55,
+    "auditId": "AUD-0055",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:15.960Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 54,
+    "auditId": "AUD-0054",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:15.761Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 53,
+    "auditId": "AUD-0053",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:15.572Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 52,
+    "auditId": "AUD-0052",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:15.363Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 51,
+    "auditId": "AUD-0051",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:15.210Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 50,
+    "auditId": "AUD-0050",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:15.001Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 49,
+    "auditId": "AUD-0049",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:14.827Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 48,
+    "auditId": "AUD-0048",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:14.643Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 47,
+    "auditId": "AUD-0047",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:13.969Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 46,
+    "auditId": "AUD-0046",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:12.881Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 45,
+    "auditId": "AUD-0045",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:53:11.536Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 44,
+    "auditId": "AUD-0044",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T08:52:40.198Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 43,
+    "auditId": "AUD-0043",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T05:15:59.459Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "idempotencyKey": "registration.spike_1_1_1"
+    }
+  },
+  {
+    "id": 42,
+    "auditId": "AUD-0042",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-05T05:15:56.851Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "idempotencyKey": "venue.unavailable_1_1_1"
+    }
+  },
+  {
+    "id": 41,
+    "auditId": "AUD-0041",
+    "workflowId": "WF-2026-004",
+    "agentId": "incident-agent",
+    "taskId": "TASK-017",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:37.947Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-004",
+        "eventId": 1,
+        "speaker": null,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 180,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 90.8,
+          "projectedHealthScore": 76.8,
+          "healthStatus": "HEALTHY",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 180 registered attendees.",
+            "Event health projected to drop from 90.8 to 76.8.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": null,
+        "attendeeImpact": {
+          "sessionId": 1,
+          "affectedAttendeesCount": 180,
+          "registeredAttendeesFound": 180,
+          "notificationRequired": true,
+          "checkInImpact": "MODERATE",
+          "sampleAffectedAttendees": [
+            {
+              "registrationId": "REG-MSA55R41",
+              "fullName": "DHARSHNA S",
+              "email": "dharshnasubramani@gmail.com"
+            }
+          ],
+          "recommendedChannel": "EMAIL_AND_PUSH"
+        }
+      }
+    }
+  },
+  {
+    "id": 40,
+    "auditId": "AUD-0040",
+    "workflowId": "WF-2026-004",
+    "agentId": "incident-agent",
+    "taskId": "TASK-017",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:37.930Z",
+    "metadata": {
+      "sequenceOrder": 3
+    }
+  },
+  {
+    "id": 39,
+    "auditId": "AUD-0039",
+    "workflowId": "WF-2026-004",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-016",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:37.862Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 180,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 90.8,
+        "projectedHealthScore": 76.8,
+        "healthStatus": "HEALTHY",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 180 registered attendees.",
+          "Event health projected to drop from 90.8 to 76.8.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 38,
+    "auditId": "AUD-0038",
+    "workflowId": "WF-2026-004",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-016",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:37.736Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-004",
+        "eventId": 1,
+        "speaker": null,
+        "triggerType": "registration.spike"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "auditId": "AUD-0037",
+    "workflowId": "WF-2026-004",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-016",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:37.714Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 36,
+    "auditId": "AUD-0036",
+    "workflowId": "WF-2026-004",
+    "agentId": "registration-agent",
+    "taskId": "TASK-015",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:37.654Z",
+    "metadata": {
+      "confidence": 0.94,
+      "result": {
+        "sessionId": 1,
+        "affectedAttendeesCount": 180,
+        "registeredAttendeesFound": 180,
+        "notificationRequired": true,
+        "checkInImpact": "MODERATE",
+        "sampleAffectedAttendees": [
+          {
+            "registrationId": "REG-MSA55R41",
+            "fullName": "DHARSHNA S",
+            "email": "dharshnasubramani@gmail.com"
+          }
+        ],
+        "recommendedChannel": "EMAIL_AND_PUSH"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "auditId": "AUD-0035",
+    "workflowId": "WF-2026-004",
+    "agentId": "registration-agent",
+    "taskId": "TASK-015",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:37.586Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-004",
+        "eventId": 1,
+        "sessionId": 1,
+        "impact": null
+      }
+    }
+  },
+  {
+    "id": 34,
+    "auditId": "AUD-0034",
+    "workflowId": "WF-2026-004",
+    "agentId": "registration-agent",
+    "taskId": "TASK-015",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:37.564Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 33,
+    "auditId": "AUD-0033",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:37.425Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "metadata": {
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      }
+    }
+  },
+  {
+    "id": 32,
+    "auditId": "AUD-0032",
+    "workflowId": "WF-2026-004",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:37.409Z",
+    "metadata": {
+      "triggerType": "registration.spike",
+      "source": "admin-dashboard-demo",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 31,
+    "auditId": "AUD-0031",
+    "workflowId": "WF-2026-003",
+    "agentId": "venue-agent",
+    "taskId": "TASK-010",
+    "action": "APPROVAL_REJECTED",
+    "status": "WARNING",
+    "timestamp": "2026-09-04T16:23:24.044Z",
+    "metadata": {
+      "approvalId": "APP-002",
+      "rejectedBy": "Admin (Event Manager)",
+      "reason": "Schedule conflict with parallel session"
+    }
+  },
+  {
+    "id": 30,
+    "auditId": "AUD-0030",
+    "workflowId": "WF-2026-003",
+    "agentId": "venue-agent",
+    "taskId": "TASK-010",
+    "action": "APPROVAL_REQUESTED",
+    "status": "WARNING",
+    "timestamp": "2026-09-04T16:23:16.376Z",
+    "metadata": {
+      "approvalId": "APP-002"
+    }
+  },
+  {
+    "id": 29,
+    "auditId": "AUD-0029",
+    "workflowId": "WF-2026-003",
+    "agentId": "venue-agent",
+    "taskId": "TASK-010",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:16.323Z",
+    "metadata": {
+      "confidence": 0.91,
+      "result": {
+        "recommendedVenueId": 1,
+        "recommendedVenueName": "Grand Auditorium",
+        "location": "North Campus",
+        "availableTime": "14:00 - 15:30",
+        "capacity": 500,
+        "requiredCapacity": 180,
+        "utilizationRate": 36,
+        "conflicts": [],
+        "alternateOptions": [
+          {
+            "venueId": 2,
+            "name": "Innovation Hall",
+            "location": "Research Wing",
+            "capacity": 220,
+            "status": "available",
+            "venueType": "Conference Hall"
+          },
+          {
+            "venueId": 3,
+            "name": "Summit Lab",
+            "location": "Innovation Center",
+            "capacity": 120,
+            "status": "available",
+            "venueType": "Workshop Room"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 28,
+    "auditId": "AUD-0028",
+    "workflowId": "WF-2026-003",
+    "agentId": "venue-agent",
+    "taskId": "TASK-010",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:16.257Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-003",
+        "eventId": 1,
+        "sessionId": 1,
+        "impact": null,
+        "requiredCapacity": 180
+      }
+    }
+  },
+  {
+    "id": 27,
+    "auditId": "AUD-0027",
+    "workflowId": "WF-2026-003",
+    "agentId": "venue-agent",
+    "taskId": "TASK-010",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:23:16.242Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 26,
+    "auditId": "AUD-0026",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:16.089Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "metadata": {
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      }
+    }
+  },
+  {
+    "id": 25,
+    "auditId": "AUD-0025",
+    "workflowId": "WF-2026-003",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:23:16.063Z",
+    "metadata": {
+      "triggerType": "venue.unavailable",
+      "source": "admin-dashboard-demo",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 24,
+    "auditId": "AUD-0024",
+    "workflowId": "WF-2026-002",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-04T16:23:08.747Z",
+    "metadata": {
+      "triggerType": "incident.created",
+      "idempotencyKey": "incident.created_1_1_1"
+    }
+  },
+  {
+    "id": 23,
+    "auditId": "AUD-0023",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "DUPLICATE_TRIGGER_IGNORED",
+    "status": "WARNING",
+    "timestamp": "2026-09-04T16:22:21.729Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "idempotencyKey": "speaker.cancelled_1_1_1"
+    }
+  },
+  {
+    "id": 22,
+    "auditId": "AUD-0022",
+    "workflowId": "WF-2026-002",
+    "agentId": "incident-agent",
+    "taskId": "TASK-007",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:20:37.610Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-002",
+        "eventId": 1,
+        "speaker": null,
+        "impact": null,
+        "venueOptions": null,
+        "attendeeImpact": null
+      }
+    }
+  },
+  {
+    "id": 21,
+    "auditId": "AUD-0021",
+    "workflowId": "WF-2026-002",
+    "agentId": "incident-agent",
+    "taskId": "TASK-007",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:20:37.588Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 20,
+    "auditId": "AUD-0020",
+    "workflowId": "WF-2026-002",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:20:37.456Z",
+    "metadata": {
+      "triggerType": "incident.created",
+      "metadata": {
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      }
+    }
+  },
+  {
+    "id": 19,
+    "auditId": "AUD-0019",
+    "workflowId": "WF-2026-002",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:20:37.435Z",
+    "metadata": {
+      "triggerType": "incident.created",
+      "source": "admin-dashboard-demo",
+      "eventId": 1
+    }
+  },
+  {
+    "id": 18,
+    "auditId": "AUD-0018",
+    "workflowId": "WF-2026-001",
+    "agentId": "incident-agent",
+    "taskId": "TASK-005",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:40.447Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-001",
+        "eventId": 1,
+        "speaker": {
+          "eventType": "speaker.cancelled",
+          "speakerId": 1,
+          "speakerName": "Dr. Sarah Chen",
+          "sessionId": 1,
+          "sessionName": "Opening Keynote",
+          "eventId": 1,
+          "eventName": "AI Tech Summit",
+          "cancellationTimestamp": "2026-09-04T16:18:34.369Z",
+          "expectedAttendance": 320,
+          "reason": "Speaker emergency cancellation received."
+        },
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 320,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 90.8,
+          "projectedHealthScore": 76.8,
+          "healthStatus": "HEALTHY",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 320 registered attendees.",
+            "Event health projected to drop from 90.8 to 76.8.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "venueOptions": {
+          "recommendedVenueId": 1,
+          "recommendedVenueName": "Grand Auditorium",
+          "location": "North Campus",
+          "availableTime": "14:00 - 15:30",
+          "capacity": 500,
+          "requiredCapacity": 320,
+          "utilizationRate": 64,
+          "conflicts": [],
+          "alternateOptions": [
+            {
+              "venueId": 2,
+              "name": "Innovation Hall",
+              "location": "Research Wing",
+              "capacity": 220,
+              "status": "available",
+              "venueType": "Conference Hall"
+            },
+            {
+              "venueId": 3,
+              "name": "Summit Lab",
+              "location": "Innovation Center",
+              "capacity": 120,
+              "status": "available",
+              "venueType": "Workshop Room"
+            }
+          ]
+        },
+        "attendeeImpact": {
+          "sessionId": 1,
+          "affectedAttendeesCount": 320,
+          "registeredAttendeesFound": 320,
+          "notificationRequired": true,
+          "checkInImpact": "MODERATE",
+          "sampleAffectedAttendees": [
+            {
+              "registrationId": "REG-MSA55R41",
+              "fullName": "DHARSHNA S",
+              "email": "dharshnasubramani@gmail.com"
+            }
+          ],
+          "recommendedChannel": "EMAIL_AND_PUSH"
+        }
+      }
+    }
+  },
+  {
+    "id": 17,
+    "auditId": "AUD-0017",
+    "workflowId": "WF-2026-001",
+    "agentId": "incident-agent",
+    "taskId": "TASK-005",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:40.432Z",
+    "metadata": {
+      "sequenceOrder": 4
+    }
+  },
+  {
+    "id": 16,
+    "auditId": "AUD-0016",
+    "workflowId": "WF-2026-001",
+    "agentId": "registration-agent",
+    "taskId": "TASK-004",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:40.372Z",
+    "metadata": {
+      "confidence": 0.94,
+      "result": {
+        "sessionId": 1,
+        "affectedAttendeesCount": 320,
+        "registeredAttendeesFound": 320,
+        "notificationRequired": true,
+        "checkInImpact": "MODERATE",
+        "sampleAffectedAttendees": [
+          {
+            "registrationId": "REG-MSA55R41",
+            "fullName": "DHARSHNA S",
+            "email": "dharshnasubramani@gmail.com"
+          }
+        ],
+        "recommendedChannel": "EMAIL_AND_PUSH"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "auditId": "AUD-0015",
+    "workflowId": "WF-2026-001",
+    "agentId": "registration-agent",
+    "taskId": "TASK-004",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:40.304Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-001",
+        "eventId": 1,
+        "sessionId": 1,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 320,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 90.8,
+          "projectedHealthScore": 76.8,
+          "healthStatus": "HEALTHY",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 320 registered attendees.",
+            "Event health projected to drop from 90.8 to 76.8.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": 14,
+    "auditId": "AUD-0014",
+    "workflowId": "WF-2026-001",
+    "agentId": "registration-agent",
+    "taskId": "TASK-004",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:40.287Z",
+    "metadata": {
+      "sequenceOrder": 3
+    }
+  },
+  {
+    "id": 13,
+    "auditId": "AUD-0013",
+    "workflowId": "WF-2026-001",
+    "agentId": "venue-agent",
+    "taskId": "TASK-003",
+    "action": "APPROVAL_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:40.128Z",
+    "metadata": {
+      "approvalId": "APP-001",
+      "approvedBy": "Admin (Event Manager)",
+      "note": "Approved reschedule to Innovation Hall B at 14:00"
+    }
+  },
+  {
+    "id": 12,
+    "auditId": "AUD-0012",
+    "workflowId": "WF-2026-001",
+    "agentId": "venue-agent",
+    "taskId": "TASK-003",
+    "action": "APPROVAL_REQUESTED",
+    "status": "WARNING",
+    "timestamp": "2026-09-04T16:18:35.735Z",
+    "metadata": {
+      "approvalId": "APP-001"
+    }
+  },
+  {
+    "id": 11,
+    "auditId": "AUD-0011",
+    "workflowId": "WF-2026-001",
+    "agentId": "venue-agent",
+    "taskId": "TASK-003",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:35.525Z",
+    "metadata": {
+      "confidence": 0.91,
+      "result": {
+        "recommendedVenueId": 1,
+        "recommendedVenueName": "Grand Auditorium",
+        "location": "North Campus",
+        "availableTime": "14:00 - 15:30",
+        "capacity": 500,
+        "requiredCapacity": 320,
+        "utilizationRate": 64,
+        "conflicts": [],
+        "alternateOptions": [
+          {
+            "venueId": 2,
+            "name": "Innovation Hall",
+            "location": "Research Wing",
+            "capacity": 220,
+            "status": "available",
+            "venueType": "Conference Hall"
+          },
+          {
+            "venueId": 3,
+            "name": "Summit Lab",
+            "location": "Innovation Center",
+            "capacity": 120,
+            "status": "available",
+            "venueType": "Workshop Room"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 10,
+    "auditId": "AUD-0010",
+    "workflowId": "WF-2026-001",
+    "agentId": "venue-agent",
+    "taskId": "TASK-003",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:35.201Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-001",
+        "eventId": 1,
+        "sessionId": 1,
+        "impact": {
+          "eventId": 1,
+          "impactLevel": "HIGH",
+          "affectedAttendees": 320,
+          "scheduleImpact": true,
+          "venueImpact": true,
+          "riskLevel": "HIGH",
+          "currentHealthScore": 90.8,
+          "projectedHealthScore": 76.8,
+          "healthStatus": "HEALTHY",
+          "recommendedPriority": "P1",
+          "insights": [
+            "Session cancellation affects 320 registered attendees.",
+            "Event health projected to drop from 90.8 to 76.8.",
+            "Immediate venue rescheduling and attendee notification required."
+          ]
+        },
+        "requiredCapacity": 320
+      }
+    }
+  },
+  {
+    "id": 9,
+    "auditId": "AUD-0009",
+    "workflowId": "WF-2026-001",
+    "agentId": "venue-agent",
+    "taskId": "TASK-003",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:35.123Z",
+    "metadata": {
+      "sequenceOrder": 3
+    }
+  },
+  {
+    "id": 8,
+    "auditId": "AUD-0008",
+    "workflowId": "WF-2026-001",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-002",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:34.647Z",
+    "metadata": {
+      "confidence": 0.93,
+      "result": {
+        "eventId": 1,
+        "impactLevel": "HIGH",
+        "affectedAttendees": 320,
+        "scheduleImpact": true,
+        "venueImpact": true,
+        "riskLevel": "HIGH",
+        "currentHealthScore": 90.8,
+        "projectedHealthScore": 76.8,
+        "healthStatus": "HEALTHY",
+        "recommendedPriority": "P1",
+        "insights": [
+          "Session cancellation affects 320 registered attendees.",
+          "Event health projected to drop from 90.8 to 76.8.",
+          "Immediate venue rescheduling and attendee notification required."
+        ]
+      }
+    }
+  },
+  {
+    "id": 7,
+    "auditId": "AUD-0007",
+    "workflowId": "WF-2026-001",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-002",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:34.494Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-001",
+        "eventId": 1,
+        "speaker": {
+          "eventType": "speaker.cancelled",
+          "speakerId": 1,
+          "speakerName": "Dr. Sarah Chen",
+          "sessionId": 1,
+          "sessionName": "Opening Keynote",
+          "eventId": 1,
+          "eventName": "AI Tech Summit",
+          "cancellationTimestamp": "2026-09-04T16:18:34.369Z",
+          "expectedAttendance": 320,
+          "reason": "Speaker emergency cancellation received."
+        },
+        "triggerType": "speaker.cancelled"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "auditId": "AUD-0006",
+    "workflowId": "WF-2026-001",
+    "agentId": "intelligence-agent",
+    "taskId": "TASK-002",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:34.482Z",
+    "metadata": {
+      "sequenceOrder": 2
+    }
+  },
+  {
+    "id": 5,
+    "auditId": "AUD-0005",
+    "workflowId": "WF-2026-001",
+    "agentId": "speaker-agent",
+    "taskId": "TASK-001",
+    "action": "OUTPUT_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:34.407Z",
+    "metadata": {
+      "confidence": 0.95,
+      "result": {
+        "eventType": "speaker.cancelled",
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote",
+        "eventId": 1,
+        "eventName": "AI Tech Summit",
+        "cancellationTimestamp": "2026-09-04T16:18:34.369Z",
+        "expectedAttendance": 320,
+        "reason": "Speaker emergency cancellation received."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "auditId": "AUD-0004",
+    "workflowId": "WF-2026-001",
+    "agentId": "speaker-agent",
+    "taskId": "TASK-001",
+    "action": "TASK_STARTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:34.319Z",
+    "metadata": {
+      "input": {
+        "workflowId": "WF-2026-001",
+        "eventId": 1,
+        "speakerId": 1,
+        "sessionId": 1
+      }
+    }
+  },
+  {
+    "id": 3,
+    "auditId": "AUD-0003",
+    "workflowId": "WF-2026-001",
+    "agentId": "speaker-agent",
+    "taskId": "TASK-001",
+    "action": "AGENT_SELECTED",
+    "status": "INFO",
+    "timestamp": "2026-09-04T16:18:34.303Z",
+    "metadata": {
+      "sequenceOrder": 1
+    }
+  },
+  {
+    "id": 2,
+    "auditId": "AUD-0002",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "TRIGGER_RECEIVED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:34.121Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "metadata": {
+        "speakerId": 1,
+        "speakerName": "Dr. Sarah Chen",
+        "sessionId": 1,
+        "sessionName": "Opening Keynote: Agentic AI Systems",
+        "expectedAttendees": 180
+      }
+    }
+  },
+  {
+    "id": 1,
+    "auditId": "AUD-0001",
+    "workflowId": "WF-2026-001",
+    "agentId": null,
+    "taskId": null,
+    "action": "WORKFLOW_CREATED",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-04T16:18:34.101Z",
+    "metadata": {
+      "triggerType": "speaker.cancelled",
+      "source": "admin-dashboard-demo",
+      "eventId": 1
+    }
+  }
+]

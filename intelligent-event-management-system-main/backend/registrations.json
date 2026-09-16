@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "event_id": 1,
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "status": "confirmed",
+    "registered_at": "2026-08-01T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "event_id": 1,
+    "name": "Bob Jones",
+    "email": "bob@example.com",
+    "status": "confirmed",
+    "registered_at": "2026-08-02T11:00:00Z"
+  },
+  {
+    "id": 3,
+    "event_id": 1,
+    "name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "status": "confirmed",
+    "registered_at": "2026-08-03T12:00:00Z"
+  },
+  {
+    "id": 4,
+    "event_id": 1,
+    "name": "Diana Prince",
+    "email": "diana@example.com",
+    "status": "cancelled",
+    "registered_at": "2026-08-04T13:00:00Z"
+  }
+]

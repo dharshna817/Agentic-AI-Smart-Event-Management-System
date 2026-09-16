@@ -1,0 +1,88 @@
+[
+  {
+    "id": 2,
+    "approvalId": "APP-002",
+    "workflowId": "WF-2026-003",
+    "taskId": "TASK-010",
+    "agentId": "venue-agent",
+    "action": "assess_attendee_impact",
+    "description": "Agent venue-agent proposed: {\"recommendedVenueId\":1,\"recommendedVenueName\":\"Grand Auditorium\",\"location\":\"North Campus\",\"availableTime\":\"14:00 - 15:30\",\"capacity\":500,\"requiredCapacity\":180,\"utilizationRate\":36,\"conflicts\":[],\"alternateOptions\":[{\"venueId\":2,\"name\":\"Innovation Hall\",\"location\":\"Research Wing\",\"capacity\":220,\"status\":\"available\",\"venueType\":\"Conference Hall\"},{\"venueId\":3,\"name\":\"Summit Lab\",\"location\":\"Innovation Center\",\"capacity\":120,\"status\":\"available\",\"venueType\":\"Workshop Room\"}]}. Requires admin review before execution.",
+    "recommendedOption": {
+      "recommendedVenueId": 1,
+      "recommendedVenueName": "Grand Auditorium",
+      "location": "North Campus",
+      "availableTime": "14:00 - 15:30",
+      "capacity": 500,
+      "requiredCapacity": 180,
+      "utilizationRate": 36,
+      "conflicts": [],
+      "alternateOptions": [
+        {
+          "venueId": 2,
+          "name": "Innovation Hall",
+          "location": "Research Wing",
+          "capacity": 220,
+          "status": "available",
+          "venueType": "Conference Hall"
+        },
+        {
+          "venueId": 3,
+          "name": "Summit Lab",
+          "location": "Innovation Center",
+          "capacity": 120,
+          "status": "available",
+          "venueType": "Workshop Room"
+        }
+      ]
+    },
+    "requestedBy": "Agent Orchestrator",
+    "status": "REJECTED",
+    "requestedAt": "2026-09-04T16:23:16.346Z",
+    "decidedBy": "Admin (Event Manager)",
+    "decidedAt": "2026-09-04T16:23:24.030Z",
+    "note": "Schedule conflict with parallel session"
+  },
+  {
+    "id": 1,
+    "approvalId": "APP-001",
+    "workflowId": "WF-2026-001",
+    "taskId": "TASK-003",
+    "agentId": "venue-agent",
+    "action": "assess_attendee_impact",
+    "description": "Agent venue-agent proposed: {\"recommendedVenueId\":1,\"recommendedVenueName\":\"Grand Auditorium\",\"location\":\"North Campus\",\"availableTime\":\"14:00 - 15:30\",\"capacity\":500,\"requiredCapacity\":320,\"utilizationRate\":64,\"conflicts\":[],\"alternateOptions\":[{\"venueId\":2,\"name\":\"Innovation Hall\",\"location\":\"Research Wing\",\"capacity\":220,\"status\":\"available\",\"venueType\":\"Conference Hall\"},{\"venueId\":3,\"name\":\"Summit Lab\",\"location\":\"Innovation Center\",\"capacity\":120,\"status\":\"available\",\"venueType\":\"Workshop Room\"}]}. Requires admin review before execution.",
+    "recommendedOption": {
+      "recommendedVenueId": 1,
+      "recommendedVenueName": "Grand Auditorium",
+      "location": "North Campus",
+      "availableTime": "14:00 - 15:30",
+      "capacity": 500,
+      "requiredCapacity": 320,
+      "utilizationRate": 64,
+      "conflicts": [],
+      "alternateOptions": [
+        {
+          "venueId": 2,
+          "name": "Innovation Hall",
+          "location": "Research Wing",
+          "capacity": 220,
+          "status": "available",
+          "venueType": "Conference Hall"
+        },
+        {
+          "venueId": 3,
+          "name": "Summit Lab",
+          "location": "Innovation Center",
+          "capacity": 120,
+          "status": "available",
+          "venueType": "Workshop Room"
+        }
+      ]
+    },
+    "requestedBy": "Agent Orchestrator",
+    "status": "APPROVED",
+    "requestedAt": "2026-09-04T16:18:35.604Z",
+    "decidedBy": "Admin (Event Manager)",
+    "decidedAt": "2026-09-04T16:18:40.107Z",
+    "note": "Approved reschedule to Innovation Hall B at 14:00"
+  }
+]

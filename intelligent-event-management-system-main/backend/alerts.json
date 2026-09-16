@@ -1,0 +1,428 @@
+[
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:19:26.298Z",
+    "updatedAt": "2026-09-05T10:19:26.298Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:19:26.298Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:16:41.850Z",
+    "updatedAt": "2026-09-05T10:16:41.850Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:16:41.850Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:16:18.255Z",
+    "updatedAt": "2026-09-05T10:16:18.255Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:16:18.255Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:15:57.903Z",
+    "updatedAt": "2026-09-05T10:15:57.903Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:15:57.903Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:15:16.457Z",
+    "updatedAt": "2026-09-05T10:15:16.457Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:15:16.457Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:15:02.788Z",
+    "updatedAt": "2026-09-05T10:15:02.788Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:15:02.788Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "alertId": "ALERT-0000",
+    "type": "SPEAKER_CANCELLATION",
+    "title": "🚨 Action Needed: Speaker Cancellation - Keynote",
+    "description": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "priority": "HIGH",
+    "sourceType": "agent-orchestrator",
+    "sourceId": null,
+    "sourceLabel": "Speaker Cancellation Orchestration",
+    "relatedEntity": null,
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:06:33.992Z",
+    "updatedAt": "2026-09-05T10:06:33.992Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Urgent schedule disruption requiring manager review",
+    "recommendedAction": "Approve session move to Hall B and dispatch attendee notifications.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:06:33.992Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "alertId": "ALERT-0001",
+    "type": "INCIDENT",
+    "title": "Critical incident: Microphone failed during keynote",
+    "description": "The main auditorium microphone failed during the keynote session and the audience cannot hear the speaker.",
+    "priority": "CRITICAL",
+    "sourceType": "incident",
+    "sourceId": 201,
+    "sourceLabel": "INC-201",
+    "relatedEntity": {
+      "incidentId": 201,
+      "title": "Microphone failed during keynote",
+      "location": "Grand Auditorium"
+    },
+    "status": "RESOLVED",
+    "createdAt": "2026-09-05T10:06:31.770Z",
+    "updatedAt": "2026-09-05T10:06:31.784Z",
+    "acknowledgedBy": "System Admin",
+    "acknowledgedAt": "2026-09-05T10:06:31.777Z",
+    "resolvedBy": "System Admin",
+    "resolvedAt": "2026-09-05T10:06:31.784Z",
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Priority is CRITICAL and the issue is still active.",
+    "recommendedAction": "Escalate immediately and coordinate response with the assigned staff and admin team.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:06:31.770Z",
+        "description": "Operational alert generated."
+      },
+      {
+        "action": "Alert Acknowledged",
+        "actor": "System Admin",
+        "timestamp": "2026-09-05T10:06:31.777Z",
+        "description": "Admin acknowledged the alert."
+      },
+      {
+        "action": "Alert Resolved",
+        "actor": "System Admin",
+        "timestamp": "2026-09-05T10:06:31.784Z",
+        "description": "Admin marked the alert as resolved."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "alertId": "ALERT-0002",
+    "type": "INCIDENT",
+    "title": "Critical incident: Microphone Failure in Main Hall",
+    "description": "Audio cutout during opening keynote.",
+    "priority": "CRITICAL",
+    "sourceType": "incident",
+    "sourceId": 1,
+    "sourceLabel": "INC-1",
+    "relatedEntity": {
+      "incidentId": 1,
+      "title": "Microphone Failure in Main Hall",
+      "location": "Grand Hall"
+    },
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:09:34.094Z",
+    "updatedAt": "2026-09-05T10:09:34.094Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Priority is CRITICAL and the issue is still active.",
+    "recommendedAction": "Escalate immediately and coordinate response with the assigned staff and admin team.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:09:34.094Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "alertId": "ALERT-0003",
+    "type": "INCIDENT",
+    "title": "High-priority incident unresolved: Queue bottleneck at Registration Desk A",
+    "description": "The INC-2 incident remains open and still impacts operations.",
+    "priority": "HIGH",
+    "sourceType": "incident",
+    "sourceId": 2,
+    "sourceLabel": "INC-2",
+    "relatedEntity": {
+      "incidentId": 2,
+      "title": "Queue bottleneck at Registration Desk A",
+      "location": "Entrance Lobby"
+    },
+    "status": "ACTIVE",
+    "createdAt": "2026-09-05T10:09:34.094Z",
+    "updatedAt": "2026-09-05T10:09:34.094Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "The incident is still unresolved and has significant operational impact.",
+    "recommendedAction": "Review the open issue, verify resolution, and coordinate the next operational action.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-05T10:09:34.094Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "alertId": "ALERT-0004",
+    "type": "SPONSORSHIP",
+    "title": "Sponsor payment pending: Sponsor",
+    "description": "Payment for proposal SP-2026-0001 remains outstanding and requires follow-up.",
+    "priority": "HIGH",
+    "sourceType": "sponsorship",
+    "sourceId": "SP-2026-0001",
+    "sourceLabel": "SP-2026-0001",
+    "relatedEntity": {
+      "proposalId": "SP-2026-0001",
+      "sponsorName": "Sponsor"
+    },
+    "status": "ACTIVE",
+    "createdAt": "2026-09-15T14:32:07.164Z",
+    "updatedAt": "2026-09-15T14:32:07.164Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "The sponsor has an outstanding payment and the approved commitment remains partially unfulfilled.",
+    "recommendedAction": "Contact the sponsor, confirm the due amount, and track the payment plan before event execution.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-15T14:32:07.164Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "alertId": "ALERT-0005",
+    "type": "SPONSORSHIP",
+    "title": "Sponsor deliverable due: Sponsor",
+    "description": "The sponsor has 1 incomplete deliverable(s) that still need action.",
+    "priority": "MEDIUM",
+    "sourceType": "sponsorship",
+    "sourceId": "SP-2026-0001",
+    "sourceLabel": "SP-2026-0001",
+    "relatedEntity": {
+      "proposalId": "SP-2026-0001",
+      "sponsorName": "Sponsor"
+    },
+    "status": "ACTIVE",
+    "createdAt": "2026-09-15T14:32:07.165Z",
+    "updatedAt": "2026-09-15T14:32:07.165Z",
+    "acknowledgedBy": null,
+    "acknowledgedAt": null,
+    "resolvedBy": null,
+    "resolvedAt": null,
+    "dismissedBy": null,
+    "dismissedAt": null,
+    "reason": "Sponsor commitments remain incomplete and could affect activation or brand readiness.",
+    "recommendedAction": "Prioritize the pending deliverables and confirm the sponsor task list before the event day.",
+    "adminUser": null,
+    "metadata": {},
+    "timeline": [
+      {
+        "action": "Alert Created",
+        "actor": "System",
+        "timestamp": "2026-09-15T14:32:07.165Z",
+        "description": "Operational alert generated."
+      }
+    ]
+  }
+]

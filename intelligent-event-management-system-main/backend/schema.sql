@@ -1,0 +1,78 @@
+CREATE TABLE IF NOT EXISTS venues (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  location VARCHAR(255) NOT NULL,
+  capacity INT NOT NULL,
+  equipment JSON,
+  availability JSON,
+  status VARCHAR(50) DEFAULT 'available',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS venue_bookings (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  venue_id INT NOT NULL,
+  event_name VARCHAR(255) NOT NULL,
+  attendee_count INT NOT NULL,
+  start_time DATETIME NOT NULL,
+  end_time DATETIME NOT NULL,
+  status VARCHAR(50) DEFAULT 'booked',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (venue_id) REFERENCES venues(id)
+);
+
+CREATE TABLE IF NOT EXISTS speakers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  expertise JSON,
+  availability JSON,
+  status VARCHAR(50) DEFAULT 'available',
+  email VARCHAR(255),
+  phone VARCHAR(50),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS speaker_sessions (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  speaker_id INT NOT NULL,
+  session_name VARCHAR(255) NOT NULL,
+  start_time DATETIME NOT NULL,
+  end_time DATETIME NOT NULL,
+  status VARCHAR(50) DEFAULT 'scheduled',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (speaker_id) REFERENCES speakers(id)
+);
+
+CREATE TABLE IF NOT EXISTS attendance (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  registration_id VARCHAR(255) NOT NULL,
+  full_name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  qr_token VARCHAR(255) NOT NULL,
+  check_in_at DATETIME NULL,
+  check_out_at DATETIME NULL,
+  status VARCHAR(50) DEFAULT 'registered',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS participant_qr (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  registration_id VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  qr_token VARCHAR(255) NOT NULL UNIQUE,
+  qr_data TEXT,
+  issued_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  used_at DATETIME NULL,
+  status VARCHAR(50) DEFAULT 'active'
+);
+
+CREATE TABLE IF NOT EXISTS notifications (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  recipient VARCHAR(255) NOT NULL,
+  role VARCHAR(50) DEFAULT 'participant',
+  title VARCHAR(255) NOT NULL,
+  message TEXT NOT NULL,
+  type VARCHAR(50) DEFAULT 'info',
+  is_read TINYINT(1) DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

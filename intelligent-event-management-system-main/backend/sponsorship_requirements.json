@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "sponsor_id": 7,
+    "event_id": 2,
+    "package_id": 2,
+    "amount": 300000,
+    "booth_required": true,
+    "booth_preference": "Near Entrance",
+    "branding_requirements": [
+      "Main Stage",
+      "Digital Screens"
+    ],
+    "promotional_sessions": 2,
+    "special_requirements": "Need extra signage and lead capture support.",
+    "created_at": "2026-09-05T10:06:36.440Z",
+    "updated_at": "2026-09-05T10:06:36.441Z"
+  }
+]

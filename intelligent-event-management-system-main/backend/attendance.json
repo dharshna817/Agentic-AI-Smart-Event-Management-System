@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "event_id": 1,
+    "user_id": 1,
+    "status": "checked-in",
+    "checked_in_at": "2026-08-05T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "event_id": 1,
+    "user_id": 2,
+    "status": "checked-in",
+    "checked_in_at": "2026-08-05T08:45:00Z"
+  },
+  {
+    "id": 3,
+    "event_id": 1,
+    "user_id": 3,
+    "status": "pending",
+    "checked_in_at": null
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 4,
+    "escalationId": "ESC-004",
+    "workflowId": "WF-2026-005",
+    "failedAgentId": "notification-agent",
+    "reason": "Agent notification-agent failed: buildOperationalAlert is not a function",
+    "severity": "HIGH",
+    "responsibleRole": "Event Manager",
+    "status": "ACTIVE",
+    "metadata": {},
+    "createdAt": "2026-09-05T09:27:23.179Z"
+  },
+  {
+    "id": 3,
+    "escalationId": "ESC-003",
+    "workflowId": "WF-2026-004",
+    "failedAgentId": "incident-agent",
+    "reason": "Agent incident-agent failed: buildIncidentAnalysis is not a function",
+    "severity": "HIGH",
+    "responsibleRole": "Event Manager",
+    "status": "ACTIVE",
+    "metadata": {},
+    "createdAt": "2026-09-04T16:23:40.540Z"
+  },
+  {
+    "id": 2,
+    "escalationId": "ESC-002",
+    "workflowId": "WF-2026-002",
+    "failedAgentId": "incident-agent",
+    "reason": "Agent incident-agent failed: buildIncidentAnalysis is not a function",
+    "severity": "HIGH",
+    "responsibleRole": "Event Manager",
+    "status": "ACTIVE",
+    "metadata": {},
+    "createdAt": "2026-09-04T16:20:40.207Z"
+  },
+  {
+    "id": 1,
+    "escalationId": "ESC-001",
+    "workflowId": "WF-2026-001",
+    "failedAgentId": "incident-agent",
+    "reason": "Agent incident-agent failed: buildIncidentAnalysis is not a function",
+    "severity": "HIGH",
+    "responsibleRole": "Event Manager",
+    "status": "ACTIVE",
+    "metadata": {},
+    "createdAt": "2026-09-04T16:18:43.036Z"
+  }
+]

@@ -1,0 +1,669 @@
+[
+  {
+    "id": 1,
+    "name": "System Admin",
+    "email": "admin@eventai.local",
+    "phone": "0000000000",
+    "password": "81b44e9d3dea708a5130badcbd4f5e82:d0d174f745c5988cba787b06ffcd5c802e22ce13dc7b122268b3b2545f7f2482fa2fcb37fea80e373f20cb8990bacb788f771285bb01c58d00db47d245f61fb4",
+    "role": "admin",
+    "created_at": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "priya",
+    "email": "priya@gmail.com",
+    "phone": "1111111111",
+    "password": "81b44e9d3dea708a5130badcbd4f5e82:d0d174f745c5988cba787b06ffcd5c802e22ce13dc7b122268b3b2545f7f2482fa2fcb37fea80e373f20cb8990bacb788f771285bb01c58d00db47d245f61fb4",
+    "role": "user",
+    "created_at": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "System Admin",
+    "email": "admin@example.com",
+    "phone": "0000000000",
+    "password": "ba19fe26e9f7e866dcc68fd5a0ab82e2:4bd1b4dc6003c7a7605a1536eb86ddc810a4cd22f72ba64c3173458ac064435770061cecd423695b752e7fed225b35cb2f6d039c064356721f98c8c493864427",
+    "role": "admin",
+    "created_at": "2026-08-15T19:10:02.152Z"
+  },
+  {
+    "id": 4,
+    "name": "Auth Test User",
+    "email": "authtest_20260816004019@example.com",
+    "phone": "9999999999",
+    "password": "d797139143f8757396dbd894edb70ebe:219ab822adc3941269c0121505de33e7e8ac29f7886bec5acef061c9c1b6a16a33cd55c64515fa5da4ed588e982312e548707fece225d49a6e12e6d269bb159e",
+    "role": "user",
+    "created_at": "2026-08-15T19:10:20.296Z"
+  },
+  {
+    "id": 5,
+    "name": "Sandhiya .P",
+    "email": "sandhiyapalanivelr@gmail.com",
+    "phone": "9360769652",
+    "password": "d8ef1570a9867665b562e3469ac4eef5:99701716db6564baea2b3726cca73a137da547b55368fddc3aa3924cfa6bfe232704a31b1f13bd5305a9b7c7b1a9c84184fe9a54b5fa4136b29744d74aae290e",
+    "role": "user",
+    "created_at": "2026-08-15T19:15:02.884Z"
+  },
+  {
+    "id": 6,
+    "name": "JEYAVARSHINI R G",
+    "email": "jeyavarshiniraajaseka5@gmail.com",
+    "phone": "7869867890",
+    "password": "eb7e2292193d3be548d880250f1d2abb:5604e1d39e6d18ccd5c5d556b72a3704e1d81301d6a9b6e1bb5011a35374bfdae379f204a48d96b11e6970b11ffa8560a5c7edcf0cf7217f87be143e3ad57c22",
+    "role": "user",
+    "created_at": "2026-08-21T13:13:33.381Z"
+  },
+  {
+    "id": 7,
+    "name": "anne",
+    "company_name": "abc company",
+    "email": "anne@gmail.com",
+    "phone": "8300957805",
+    "password": "b84c42de9c2b5a53e59348bb5e5deaa7:47c10f1cf15330e51cd5bff9d6b8953211aa25b8c09bbaef5cbf3d7a637624d40c71a7d177ddbeb93d3e4e0f733476c513f6055b945979161d31c3e765ec5506",
+    "role": "sponsor",
+    "created_at": "2026-08-22T06:13:41.927Z"
+  },
+  {
+    "id": 8,
+    "name": "Jeyavarshini",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "phone": "9876587659",
+    "password": "7bb65b892dcf86db5b002a0c224310ac:de180e67af8af7e81851e30b31b72e8bb7e1fe96ac8c398de60b510f63e91e88953153840063b5c60f3f6767c29b776d3a2abed11c11ae9b44c98ad64c6db221",
+    "role": "sponsor",
+    "created_at": "2026-08-22T08:37:56.401Z"
+  },
+  {
+    "id": 9,
+    "name": "Staff Member",
+    "email": "staff@eventai.local",
+    "phone": "7777777777",
+    "password": "1fcf15a79b2cf5fc7e0fea9db4b659ba:85b6bd55e7df222e44119c7584d4e7af331c8d0cc79d3e6ef36956516cf36032b122762eeb1601644970d9957e3cbcb810a7a0124bd379f632534b2764087a7e",
+    "role": "staff",
+    "department": "Technical Support",
+    "status": "Active",
+    "created_at": "2026-08-22T16:52:22.986Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T04:27:27.827Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T06:05:24.926Z"
+  },
+  {
+    "id": 100,
+    "name": "dharaa",
+    "company_name": "dharatech",
+    "email": "dhara@gmail.com",
+    "phone": "6383866183",
+    "password": "65c3431ec76075c99297b6c8c1890fb9:dafaea60359b1d0cff121dbcb3ba6973762048ae52a90b55a633a627a935b2878d305981e855217f2e879f4cac9609c7ee361cf551994ce98c7615de48cb255c",
+    "role": "sponsor",
+    "created_at": "2026-08-23T06:18:18.236Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:20:38.108Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:20:38.108Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:20:38.108Z"
+  },
+  {
+    "id": 101,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:21:05.527Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:21:05.561Z"
+  },
+  {
+    "id": 102,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:21:42.458Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:21:42.481Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:22:19.691Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:22:50.489Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:22:50.490Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:22:50.490Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:27:50.377Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:27:50.378Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-08-23T10:27:50.378Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T15:52:07.380Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T15:52:07.380Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T15:52:07.380Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:20:45.240Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:20:45.240Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:20:45.240Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:22:03.739Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:22:03.739Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:22:03.739Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:24:17.285Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:24:17.286Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:24:17.286Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:26:37.765Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:26:37.765Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:26:37.765Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:30:03.155Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:30:03.198Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:30:03.198Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:30:03.198Z"
+  },
+  {
+    "id": 103,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:40:11.300Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:40:11.341Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:40:11.368Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:40:11.369Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:40:11.369Z"
+  },
+  {
+    "id": 104,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:48:16.946Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:48:16.981Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:48:17.000Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:48:17.000Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:48:17.000Z"
+  },
+  {
+    "id": 105,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:50:02.486Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:50:02.528Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:50:02.557Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:50:02.557Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-03T16:50:02.557Z"
+  },
+  {
+    "id": 106,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:27:20.592Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:27:20.630Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:27:20.657Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:27:20.657Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:27:20.657Z"
+  },
+  {
+    "id": 107,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:28:40.305Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:28:40.348Z"
+  },
+  {
+    "id": 10,
+    "name": "Fallback Sponsor",
+    "company_name": "Fallback Sponsor Co.",
+    "email": "fallback-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:28:40.383Z"
+  },
+  {
+    "id": 99,
+    "name": "Legacy Sponsor",
+    "company_name": "Legacy Sponsor Co.",
+    "email": "legacy-sponsor@example.com",
+    "phone": "9999999999",
+    "password": "salt:hash",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:28:40.383Z"
+  },
+  {
+    "id": 100,
+    "name": "true sponsor",
+    "company_name": "xo technology",
+    "email": "xotech@gmail.com",
+    "role": "sponsor",
+    "created_at": "2026-09-05T09:28:40.383Z"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "watch": ["server.js", "routes", "lib", "intelligence"],
+  "ext": "js",
+  "ignore": [
+    "**/*.json",
+    "node_modules/**",
+    "**/data/**"
+  ]
+}

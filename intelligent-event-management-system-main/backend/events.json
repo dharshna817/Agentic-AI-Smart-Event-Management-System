@@ -1,0 +1,90 @@
+[
+  {
+    "event_id": 1,
+    "id": 1,
+    "name": "AI Tech Summit",
+    "description": "A flagship conference on responsible AI and enterprise transformation.",
+    "location": "Grand Auditorium",
+    "start_date": "2026-08-20T09:00:00",
+    "end_date": "2026-08-20T17:00:00",
+    "status": "PUBLISHED",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 2,
+    "id": 2,
+    "name": "Women in AI Forum",
+    "description": "Leadership, research, and product strategies for women in AI.",
+    "location": "Innovation Hall",
+    "start_date": "2026-08-21T10:00:00",
+    "end_date": "2026-08-21T15:30:00",
+    "status": "PUBLISHED",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 3,
+    "id": 3,
+    "name": "Smart Cities Expo",
+    "description": "Urban technology, mobility, and civic infrastructure showcase.",
+    "location": "Summit Lab",
+    "start_date": "2026-08-22T09:30:00",
+    "end_date": "2026-08-22T18:00:00",
+    "status": "DRAFT",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 4,
+    "id": 4,
+    "name": "Startup Growth Forum",
+    "description": "Founder stories, investor connections, and scaling strategies for emerging startups.",
+    "location": "Innovation Hub",
+    "start_date": "2026-08-27T10:00:00",
+    "end_date": "2026-08-27T16:00:00",
+    "status": "PUBLISHED",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 5,
+    "id": 5,
+    "name": "Healthcare AI Connect",
+    "description": "Digital health, diagnostics, and AI-led care transformation for healthcare leaders.",
+    "location": "Medical Pavilion",
+    "start_date": "2026-08-28T09:00:00",
+    "end_date": "2026-08-28T17:00:00",
+    "status": "PUBLISHED",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 6,
+    "id": 6,
+    "name": "Future Mobility Expo",
+    "description": "EV technology, autonomous systems, and smart transportation innovations.",
+    "location": "Tech Arena",
+    "start_date": "2026-08-30T09:30:00",
+    "end_date": "2026-08-30T18:30:00",
+    "status": "PUBLISHED",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 7,
+    "id": 7,
+    "name": "Cybersecurity Leaders Summit",
+    "description": "Security strategies, zero-trust architecture, and resilience planning for modern enterprises.",
+    "location": "Secure Hall",
+    "start_date": "2026-08-31T11:00:00",
+    "end_date": "2026-08-31T18:00:00",
+    "status": "PUBLISHED",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  },
+  {
+    "event_id": 8,
+    "id": 8,
+    "name": "Green Tech Innovation Week",
+    "description": "Clean energy, sustainability, and climate tech discussions with industry leaders.",
+    "location": "Sustainability Center",
+    "start_date": "2026-09-02T09:00:00",
+    "end_date": "2026-09-02T17:30:00",
+    "status": "DRAFT",
+    "created_at": "2026-08-23T04:14:47.994Z"
+  }
+]

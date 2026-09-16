@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "proposal_id": "SP-2026-0001",
+    "sponsor_id": 1,
+    "event_id": 1,
+    "package_id": 1,
+    "requirement_id": 1,
+    "amount": 500000,
+    "status": "Approved",
+    "submitted_at": "2026-09-05T10:06:35.523Z",
+    "created_at": "2026-09-05T10:06:35.528Z",
+    "updated_at": "2026-09-07T14:33:03.310Z",
+    "booth_required": false,
+    "booth_preference": "Not Required",
+    "branding_requirements": [],
+    "promotional_sessions": 0,
+    "special_requirements": "",
+    "notes": "Premium booth near entrance",
+    "reviewed_by": "admin@example.com",
+    "reviewed_at": "2026-09-07T14:33:03.310Z",
+    "rejection_reason": "",
+    "negotiation_message": "",
+    "negotiated_amount": 0,
+    "status_history": [
+      {
+        "timestamp": "2026-09-07T14:33:03.311Z",
+        "status": "Approved",
+        "actor": "admin@example.com",
+        "note": ""
+      }
+    ]
+  }
+]

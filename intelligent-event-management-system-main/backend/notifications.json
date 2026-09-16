@@ -1,0 +1,91 @@
+[
+  {
+    "id": 9,
+    "recipient_email": "sponsor@eventai.local",
+    "recipient_role": "sponsor",
+    "title": "🎉 Sponsorship Proposal Approved",
+    "message": "Your Platinum sponsorship proposal for 1 has been approved.\n\nProposal ID:\nSP-2026-0001",
+    "type": "success",
+    "is_read": false,
+    "created_at": "2026-09-07T14:33:03.447Z",
+    "proposal_id": "SP-2026-0001",
+    "status": "Approved",
+    "sponsor_name": "Tech Global"
+  },
+  {
+    "id": 8,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:19:26.301Z"
+  },
+  {
+    "id": 7,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:16:41.854Z"
+  },
+  {
+    "id": 6,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:16:18.259Z"
+  },
+  {
+    "id": 5,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:15:57.905Z"
+  },
+  {
+    "id": 4,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:15:16.459Z"
+  },
+  {
+    "id": 3,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:15:02.791Z"
+  },
+  {
+    "id": 2,
+    "recipient_role": "admin",
+    "title": "Speaker Cancellation Alert",
+    "message": "Session 'Keynote' was cancelled by speaker. Recommended venue: Innovation Hall B at 14:00. 180 attendees affected.",
+    "type": "warning",
+    "is_read": false,
+    "created_at": "2026-09-05T10:06:33.995Z"
+  },
+  {
+    "id": 1,
+    "recipient_email": "sponsor@eventai.local",
+    "recipient_role": "sponsor",
+    "title": "🎉 Sponsorship Proposal Approved",
+    "message": "Your Platinum sponsorship proposal for 1 has been approved.\n\nProposal ID:\nSP-2026-0001",
+    "type": "success",
+    "is_read": false,
+    "created_at": "2026-09-05T10:06:32.347Z",
+    "proposal_id": "SP-2026-0001",
+    "status": "Approved",
+    "sponsor_name": "Platinum One"
+  }
+]

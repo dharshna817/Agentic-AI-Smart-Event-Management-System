@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Global",
+    "status": "Active",
+    "tier": "Platinum",
+    "active_sponsorships": 1,
+    "total_sponsorship_value": 500000,
+    "updated_at": "2026-09-07T14:33:03.439Z"
+  },
+  {
+    "id": 2,
+    "name": "Innovate AI",
+    "status": "Active",
+    "tier": "Gold"
+  }
+]

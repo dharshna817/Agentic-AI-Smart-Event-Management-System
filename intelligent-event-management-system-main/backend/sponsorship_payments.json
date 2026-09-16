@@ -1,0 +1,56 @@
+[
+  {
+    "proposal_id": "SP-101",
+    "amount": 500000,
+    "due_amount": 0,
+    "status": "Paid",
+    "sponsor_id": 1
+  },
+  {
+    "proposal_id": "SP-102",
+    "amount": 250000,
+    "due_amount": 0,
+    "status": "Paid",
+    "sponsor_id": 2
+  },
+  {
+    "id": 1,
+    "proposal_id": "1",
+    "sponsor_id": 1,
+    "event_id": 0,
+    "package_id": 0,
+    "amount": 150000,
+    "paid_amount": 150000,
+    "due_amount": 0,
+    "status": "Paid",
+    "created_at": "2026-09-05T10:06:35.088Z",
+    "updated_at": "2026-09-05T10:06:35.088Z"
+  },
+  {
+    "id": 2,
+    "proposal_id": "SP-2026-0001",
+    "sponsor_id": 1,
+    "event_id": 1,
+    "package_id": 1,
+    "amount": 500000,
+    "paid_amount": 0,
+    "due_amount": 500000,
+    "status": "Pending",
+    "payment_schedule": [
+      {
+        "label": "Initial deposit",
+        "amount": 150000,
+        "status": "Pending",
+        "due_date": "2026-09-07T14:33:03.351Z"
+      },
+      {
+        "label": "Balance installment",
+        "amount": 350000,
+        "status": "Pending",
+        "due_date": "2026-09-21T14:33:03.351Z"
+      }
+    ],
+    "created_at": "2026-09-07T14:33:03.352Z",
+    "updated_at": "2026-09-07T14:33:03.352Z"
+  }
+]
